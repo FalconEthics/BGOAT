@@ -1,8 +1,8 @@
-# Welcome to!
+# Welcome to -
 
 <img src="./icon.png" alt="icon" />
 
-### (Best Games Of All Times) 
+### (Best Games Of All Times) <a href="https://bgoat.000webhostapp.com/">Open attic!</a>
 
 #### ~ the website that will make you want to throw your console out the window and re-think your life choices! Our list of the greatest games of all time is so exclusive, it's practically a secret society.
 
