@@ -4,9 +4,12 @@
     <title>BGOAT</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <style>
-        body {
+        body{
+            background-image: url("https://wallpapers.com/images/hd/detective-paraphernalia-high-definition-e02vnxp0clzrizfj.jpg");
+            background-size: cover;
+        }
+        .list {
             animation: 1s ease-out 0s 1 fadeIn;
             display: flex;
             flex-direction: column;
@@ -14,8 +17,13 @@
             align-items: center;
             /*text-align: center;*/
             min-height: 100vh;
-            background-image: url("https://wallpapers.com/images/hd/detective-paraphernalia-high-definition-e02vnxp0clzrizfj.jpg");
-            background-size: auto;
+            background-image: url("https://wallup.net/wp-content/uploads/2019/10/919705-switzerland-mountains-houses-alps-fir-nature.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding: 50px;
+            overflow: auto;
+            height: 100%;
         }
         @keyframes fadeIn {
             0% {
@@ -25,20 +33,18 @@
                 opacity: 1;
             }
         }
-        input{
-            margin-top: 10px;
-            width: 270px;
-
+        .list-item {
+            margin-top: 30px;
+            width: 700px;
         }
         label{
             width: 270px;
             color: azure;
-            background: #4D3B11;
-            background: -webkit-linear-gradient(right, #4D3B11, #F97B71);
-            background: -moz-linear-gradient(right, #4D3B11, #F97B71);
-            background: linear-gradient(to left, #4D3B11, #F97B71);
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(121,84,9,1) 50%, rgba(0,255,128,0) 100%);
             padding: 5px;
             border-radius: 10px;
+            margin-bottom: 10px;
         }
         h3{
             margin-top: 10px;
@@ -50,13 +56,44 @@
         h1{
             padding: 15px;
         }
-        .list{
-            margin: 50px;
+        #passwordSection {
+            position: relative;
+            animation: 1s ease-out 0s 1 slideInFromLeft;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+            /*width: 300px;*/
         }
-        div{
-            margin-top: 40px;
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        input {
+            width: 270px;
+        }
+        input + input {
+            margin-top: 10px;
+        }
+        img {
+            position: absolute;
+            width: 400px;
+            height: 300px;
+        }
+        form {
+            position: absolute;
+        }
+        a {
+            margin-top: 30px;
         }
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
 <?php
@@ -66,59 +103,61 @@ if (isset($_POST['password']) && $_POST['password'] == "falconethics") {
         <h1 class="navbar-brand mb-0 h1" >🫰 BEST FPS GAMES OF ALL TIMES</h1> 
 </nav>
       <div>
-        <div class="Assassins-Creed-Trilogy"></div>
+        <div class="list-item Assassins-Creed-Trilogy"></div>
       </div>
       <div>
-        <div class="Call-Of-Duty"></div>
+        <div class="list-item Call-Of-Duty"></div>
       </div>
       <div>
-        <div class="Grand-Theft-Auto"></div>
+        <div class="list-item Grand-Theft-Auto"></div>
       </div>
       <div>
-        <div class="Fantasy"></div>
+        <div class="list-item Fantasy"></div>
       </div>
       <div>
-        <div class="World-War-Trilogy"></div>
+        <div class="list-item World-War-Trilogy"></div>
       </div>
       <div>
-        <div class="Survival"></div>
+        <div class="list-item Survival"></div>
       </div>
       <div>
-        <div class="Modern-Combat"></div>
+        <div class="list-item Modern-Combat"></div>
       </div>
       <div>
-        <div class="Assassins-Creed-Aftermath"></div>
+        <div class="list-item Assassins-Creed-Aftermath"></div>
       </div>
       <div>
-        <div class="Comical"></div>
+        <div class="list-item Comical"></div>
       </div>
       <div>
-        <div class="Medieval"></div>
+        <div class="list-item Medieval"></div>
       </div>
       <div>
-        <div class="Secret-Service"></div>
+        <div class="list-item Secret-Service"></div>
       </div>
       <div>
-        <div class="Medal-of-Honor"></div>
+        <div class="list-item Medal-of-Honor"></div>
       </div>
       <div>
-        <div class="Futuristic"></div>
+        <div class="list-item Futuristic"></div>
       </div>
       <div>
-        <div class="Super-Natural"></div>
+        <div class="list-item Super-Natural"></div>
       </div>
       <div>
-        <div class="Horror"></div>
+        <div class="list-item Horror"></div>
       </div>
       <div>
-        <div class="Others"></div>
+        <div class="list-item Others"></div>
       </div>
+      <a class="btn btn-outline-light" href="https://discord.gg/qkcm8qGP8b">Join this Elite group of Gamers</a>
     </div>';
     echo '<script>';
     echo 'document.getElementById("passwordSection").style.display = "none";';
     echo '</script>';
 } else {
-    echo '<div id="passwordSection input-group mb-3">';
+    echo '<div id="passwordSection" class="input-group mb-3">';
+    echo '<img src="./board.png" alt="board" />';
     echo '<form class="items" method="post" action="' . $_SERVER['PHP_SELF'] . '">';
     echo '<label class="items" for="password">WHO`S THE FALL GUYS ?</label>';
     echo '<input class="form-control" type="password" id="password" name="password">';
