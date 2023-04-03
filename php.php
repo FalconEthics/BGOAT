@@ -17,7 +17,6 @@ if (isset($_POST['password']) && $_POST['password'] == "falconethics") {
 //    probably the worst way to write php
     echo '
     <div class="list">
-    <audio src="https://www.bensound.com/bensound-music/bensound-moose.mp3"></audio>
     <nav class="navbar bg-body-tertiary">
         <h1 class="navbar-brand mb-0 h1" >🫰 BEST FPS GAMES OF ALL TIMES</h1> 
     </nav>

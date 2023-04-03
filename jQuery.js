@@ -16,9 +16,13 @@ $(document).ready(function () {
             });
         })(className);
     }
-    window.addEventListener("DOMContentLoaded", event => {
-        const audio = document.querySelector("audio");
-        audio.volume = 0.2;
-        audio.play();
+    $(document).ready(function () {
+        var audioElement = new Audio('./bensound-moose.mp3');
+        audioElement.addEventListener('ended', function () {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+        audioElement.play();
     });
+
 });
