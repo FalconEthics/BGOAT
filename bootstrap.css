@@ -1,0 +1,149 @@
+body {
+    background-image: url("https://wallpapers.com/images/hd/detective-paraphernalia-high-definition-e02vnxp0clzrizfj.jpg");
+    background-size: cover;
+}
+
+.list {
+    animation: 1s ease-out 0s 1 fadeIn;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/floral-background-with-space-middle_23-2147730169.jpg?w=1380&t=st=1680551898~exp=1680552498~hmac=0b8afd6caf4b29c7db9ce3503f3aa34fef3683501d97afb3e4216aba41c487b3");
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 50px;
+    overflow: auto;
+    height: 100%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.list-item {
+    margin-top: 30px;
+    width: 700px;
+}
+
+label {
+    width: 270px;
+    color: azure;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(121, 84, 9, 1) 50%, rgba(0, 255, 128, 0) 100%);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    color: azure;
+}
+
+nav {
+    border-radius: 8px;
+}
+
+h1 {
+    padding: 15px;
+    animation: side-shaking 0.75s infinite;
+}
+
+@keyframes tilt-shaking {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#passwordSection {
+    position: relative;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    /*width: 300px;*/
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+input {
+    width: 270px;
+}
+
+input + input {
+    margin-top: 10px;
+}
+
+img {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+}
+
+form {
+    position: absolute;
+}
+
+.dc {
+    margin-top: 30px;
+}
+
+/*a {*/
+/*    animation: fadeIn 1s infinite;*/
+/*}*/
+
+a:hover {
+    scale: 1.2;
+}
+
+h3 {
+    animation: side-shaking 0.75s infinite;
+}
+
+@keyframes side-shaking {
+    0% {
+        transform: translateX(0)
+    }
+    25% {
+        transform: translateX(5px)
+    }
+    50% {
+        transform: translateX(-5px)
+    }
+    75% {
+        transform: translateX(5px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
