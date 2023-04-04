@@ -10,7 +10,7 @@ $(document).ready(function () {
                 let lines = data.split('\n');
                 let listItems = '';
                 for (let j = 0; j < lines.length; j++) {
-                    listItems += '<a class="list-group-item list-group-item-action list-group-item-dark"' + 'href="https://www.google.com/search?q=' + className.split(' ').join('+') + '">' + lines[j] + '</a>';
+                    listItems += '<a class="list-group-item list-group-item-action list-group-item-dark"' + 'href="https://www.google.com/search?q=' + lines[j].split(' ').join('+') + '+buy">' + lines[j] + '</a>';
                 }
                 $('.' + className).append('<div class="list-group">' + '<h3 class="list-group-item list-group-item-action list-group-item-success">' + className + '</h3>' + listItems + '</div>');
             });
@@ -18,11 +18,29 @@ $(document).ready(function () {
     }
     $(document).ready(function () {
         var audioElement = new Audio('./bensound-moose.mp3');
+        var isInputClicked = false;
+        var isH3Present = false;
+
+        $('input').on('click', function () {
+            isInputClicked = true;
+            audioElement.play();
+        });
+
+        setInterval(function() {
+            if ($('h3').length && !isInputClicked) {
+                isH3Present = true;
+                audioElement.play();
+            } else if (!$('h3').length && isH3Present) {
+                isH3Present = false;
+                audioElement.pause();
+            }
+        }, 1000);
+
         audioElement.addEventListener('ended', function () {
             this.currentTime = 0;
             this.play();
         }, false);
+
         audioElement.play();
     });
-
 });
