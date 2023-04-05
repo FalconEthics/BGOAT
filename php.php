@@ -13,7 +13,7 @@
 <!--if you solve it by going thrrough the sourcecode then what's the meaning? of this challenge-->
 <?php
 //you are not gonna have the source code in real life, so hack it without going through the files man!!
-if (isset($_POST['password']) && $_POST['password'] == "falconethics") {
+if (isset($_POST['password']) && $_POST['password'] == "notme") {
 //    probably the worst way to write php
     echo '
     <div class="list">
