@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfileReference">
+      <GlobalProfileReference>
+        <option name="id" value="1708569417417" />
+        <option name="name" value="new" />
+      </GlobalProfileReference>
+    </option>
+  </component>
+  <component name="JenkinsBrowserPanel">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
