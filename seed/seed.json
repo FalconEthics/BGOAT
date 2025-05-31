@@ -1,0 +1,2267 @@
+[
+  {
+    "category": "Assassins-Creed-Core",
+    "games": [
+      {
+        "name": "Prince of Persia: The Forgotten Sands",
+        "rating": 7.3,
+        "desc": "Prince of Persia: The Forgotten Sands is a third-person action-adventure puzzle-platforming video game developed and published by Ubisoft. Set between Prince of Persia: The Sands of Time and Prince of Persia: Warrior Within, the player controls the Prince as he travels through ancient Persia, combating magical threats with elemental powers and acrobatic traversal.",
+        "trailer": "https://www.youtube.com/embed/T2WbkJqqXbc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/33320/Prince_of_Persia_The_Forgotten_Sands/"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.xbox.com/en-US/games/store/prince-of-persia-the-forgotten-sands/bqc3dcltwh3r"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://www.amazon.com/Prince-Persia-Forgotten-Sands-Playstation-3/dp/B0030GBU2I"
+          }
+        ]
+      },
+      {
+        "name": "Assassin's Creed II",
+        "rating": 8.3,
+        "desc": "Assassin’s Creed II is a 2009 action-adventure video game developed by Ubisoft Montreal and published by Ubisoft. The story follows Ezio Auditore da Firenze, a young nobleman in Renaissance Italy who becomes an Assassin after his family is betrayed. The game expands upon the original’s parkour, stealth, and combat systems, and introduces an open-world depiction of Florence, Venice, and Tuscany.",
+        "trailer": "https://www.youtube.com/embed/IEv0qOqk9ZI",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/33230/Assassins_Creed_II/"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-ii/bxqtc162hq00"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00003_00-ASSASSINCREED200"
+          }
+        ]
+      },
+      {
+        "name": "Assassin's Creed Brotherhood",
+        "rating": 8,
+        "desc": "Assassin’s Creed Brotherhood is a 2010 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Continuing Ezio Auditore’s story, Ezio leads the Assassin Brotherhood in Renaissance Rome to dismantle the Templar influence in the city. It introduced the first multiplayer mode in the franchise, alongside expanded combat, the ability to recruit and train fellow Assassins, and a more intricate depiction of Rome.",
+        "trailer": "https://www.youtube.com/embed/5xrqIIv2tN4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/201010/Assassins_Creed_Brotherhood/"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-brotherhood/bxqtc162hq1q"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00004_00-ASSASSINCREED300"
+          }
+        ]
+      },
+      {
+        "name": "Assassin's Creed Revelations",
+        "rating": 7.5,
+        "desc": "Assassin’s Creed Revelations is a 2011 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Concluding Ezio Auditore’s trilogy, the story interweaves Ezio’s journey in Constantinople with glimpses of Altair’s later life. It refines parkour by allowing hookblade traversal, refines the Mediterranean setting, and deepens the Brotherhood system with new assassin customization options.",
+        "trailer": "https://www.youtube.com/embed/GG0hEf7QD-o",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/201060/Assassins_Creed_Revelations/"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-revelations/bxqtc162hq2f"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00005_00-ASSASSINCREED400"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Call-Of-Duty-Core",
+    "games": [
+      {
+        "name": "Call of Duty: Modern Warfare (2019)",
+        "rating": 8.8,
+        "desc": "Call of Duty: Modern Warfare is a 2019 first-person shooter developed by Infinity Ward and published by Activision. A soft reboot of the Modern Warfare subseries, it features a more realistic visual style, a gripping single-player campaign about contemporary conflicts, and a revamped multiplayer suite including the groundbreaking Warzone battle-royale mode.",
+        "trailer": "https://www.youtube.com/embed/xsRVuvgj-Gg",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1007140/Call_of_Duty_Modern_Warfare/"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-modern-warfare/bxqtc16n645g"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0002-CUSA13378_00-CODMODWARFARE00"
+          }
+        ]
+      },
+      {
+        "name": "Call of Duty: Modern Warfare II (2022)",
+        "rating": 8.1,
+        "desc": "Call of Duty: Modern Warfare II is a 2022 first-person shooter developed by Infinity Ward and published by Activision. Serving as a sequel to the 2019 Modern Warfare, it continues Task Force 141’s global operations. It introduces new gameplay mechanics such as upgraded gunsmith, dynamic maps, and an expanded multiplayer experience, along with an integrated Warzone 2.0.",
+        "trailer": "https://www.youtube.com/embed/Kg1FaYVBKfA",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/2230590/Call_of_Duty_Modern_Warfare_II/"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-modern-warfare-ii/bxqtc1gmwvxb"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP1018-CUSA28502_00-CODMWII0000000"
+          }
+        ]
+      },
+      {
+        "name": "Call of Duty: Modern Warfare III (2023)",
+        "rating": 7.9,
+        "desc": "Call of Duty: Modern Warfare III is a 2023 first-person shooter developed by Sledgehammer Games and Raven Software, published by Activision. Continuing the Modern Warfare storyline, it features an expanded campaign, new Spec Ops missions, an evolved Gunsmith, and cross-platform Warzone integration. The game builds upon MWII’s engine with improved netcode and new multiplayer modes.",
+        "trailer": "https://www.youtube.com/embed/cc8z_zOSxg8",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/2622350/Call_of_Duty_Modern_Warfare_III/"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-modern-warfare-iii/bxqtc1kvc3kz"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP0002-CUSA35628_00-CODMW309000000"
+          }
+        ]
+      },
+      {
+        "name": "Call of Duty 4: Modern Warfare Remastered",
+        "rating": 9,
+        "desc": "Call of Duty 4: Modern Warfare Remastered is a 2016 first-person shooter developed by Raven Software and published by Activision. A remastered version of the 2007 classic, it features upgraded textures, models, and audio while preserving the original campaign and multiplayer. It retains the story of Task Force 141 agents Soap, Price, and Gaz, showcasing their efforts in preventing nuclear terrorism.",
+        "trailer": "https://www.youtube.com/embed/3HzUgPF-DKM",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/877770/Call_of_Duty_4_Modern_Warfare_Remastered/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0002-CUSA04657_00-0000000000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-4-modern-warfare-remastered/bxqtc162hv9m"
+          }
+        ]
+      },
+      {
+        "name": "Call of Duty: Modern Warfare 2 Remastered",
+        "rating": 8.5,
+        "desc": "Call of Duty: Modern Warfare 2 Campaign Remastered is a 2020 first-person shooter developed by Beenox and Raven Software, published by Activision. It remasters MW2’s single-player campaign with updated visuals, audio, and a new day-one DLC featuring extra weapons. The storyline follows Task Force 141 as they hunt Makarov and confront new threats.",
+        "trailer": "https://www.youtube.com/embed/pZV-Fh9VovQ",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1777160/Call_of_Duty_Modern_Warfare_2_Campaign_Remastered/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0002-CUSA18376_00-0000000000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-modern-warfare-2-campaign-remastered/bxqtc19lp9zz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Grand-Theft-Auto-Core",
+    "games": [
+      {
+        "name": "GTA III",
+        "rating": 8.5,
+        "desc": "Grand Theft Auto III is a 2001 action-adventure game developed by DMA Design (Rockstar Games) and published by Rockstar. It is the first fully 3D entry in the series, taking place in Liberty City. Players assume the role of a silent protagonist known as Claude, navigating a crime-ridden sandbox to complete missions for various criminal syndicates.",
+        "trailer": "https://www.youtube.com/embed/8zR4rYlUAnM",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/12120/Grand_Theft_Auto_III/"
+          },
+          {
+            "for": "PlayStation 2",
+            "link": "https://www.amazon.com/Grand-Theft-Auto-III-PlayStation-2/dp/B00005N3K9"
+          },
+          {
+            "for": "Xbox",
+            "link": "https://www.amazon.com/Grand-Theft-Auto-III-Xbox/dp/B00005N3KM"
+          }
+        ]
+      },
+      {
+        "name": "GTA Vice City",
+        "rating": 8.9,
+        "desc": "Grand Theft Auto: Vice City is a 2002 action-adventure game developed by Rockstar North and published by Rockstar Games. Set in 1986 Vice City (a fictional Miami), players control Tommy Vercetti, recently released from prison, as he builds a criminal empire. The game is known for its vibrant 80s aesthetic, iconic soundtrack, and expanded open-world gameplay.",
+        "trailer": "https://www.youtube.com/embed/hZT2qR7dpf4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/12180/Grand_Theft_Auto_Vice_City/"
+          },
+          {
+            "for": "PlayStation 2",
+            "link": "https://www.amazon.com/Grand-Theft-Auto-Vice-City-PlayStation/dp/B00005N3I7"
+          },
+          {
+            "for": "Xbox",
+            "link": "https://www.amazon.com/Grand-Theft-Auto-Vice-City-Xbox/dp/B0002CWHK6"
+          }
+        ]
+      },
+      {
+        "name": "GTA San Andreas",
+        "rating": 9.6,
+        "desc": "Grand Theft Auto: San Andreas is a 2004 action-adventure game developed by Rockstar North and published by Rockstar Games. Set in 1992, the game follows Carl “CJ” Johnson as he returns to Los Santos (fictional Los Angeles) to investigate his mother’s murder and is drawn into a world of gangs and corruption. It features a vast open world spanning three cities, RPG elements, and a deep storyline.",
+        "trailer": "https://www.youtube.com/embed/whQj5X2qxuQ",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/12140/Grand_Theft_Auto_San_Andreas/"
+          },
+          {
+            "for": "PlayStation 2",
+            "link": "https://www.amazon.com/Grand-Theft-Auto-San-Andreas-PlayStation/dp/B00005N3GD"
+          },
+          {
+            "for": "Xbox",
+            "link": "https://www.amazon.com/Grand-Theft-Auto-San-Andreas-Xbox/dp/B000BPCU9A"
+          }
+        ]
+      },
+      {
+        "name": "GTA IV",
+        "rating": 8.5,
+        "desc": "Grand Theft Auto IV is a 2008 action-adventure game developed by Rockstar North and published by Rockstar Games. Following Niko Bellic, a war veteran from Eastern Europe, as he immigrates to Liberty City in search of the American Dream. The game is celebrated for its realistic physics, deep storylines, and expansive open world.",
+        "trailer": "https://www.youtube.com/embed/z06Hxooma08",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0001-NPUB30751_00-GTAVICECITYCOMB0"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-us/p/grand-theft-auto-iv/bxqtc1dd8s3z"
+          }
+        ]
+      },
+      {
+        "name": "GTA V",
+        "rating": 8.7,
+        "desc": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. Set in the fictional state of San Andreas (Los Santos), it follows three protagonists—Michael, Franklin, and Trevor—as they commit heists and navigate the criminal underworld. Renowned for its massive open world, engaging story, and Grand Theft Auto Online component.",
+        "trailer": "https://www.youtube.com/embed/qkkoHAzjnUs",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP1004-CUSA00419_00-GTAVPS400000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/grand-theft-auto-v/bxqtc162hv9k"
+          }
+        ]
+      },
+      {
+        "name": "GTA VI",
+        "rating": 7.2,
+        "desc": "Grand Theft Auto VI is an upcoming action-adventure game under development by Rockstar Games. Announced in late 2022, it is expected to continue the series’ open-world tradition with a new setting heavily inspired by modern Vice City and its surrounding areas. As of mid-2025, official details are limited, but Rockstar has confirmed a multi-protagonist structure similar to GTA V.",
+        "trailer": "https://www.youtube.com/embed/v_yLG4V-PwQ",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/2238540/Grand_Theft_Auto_VI/"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA01073_00-GTAVI00000000000"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/grand-theft-auto-vi/bxqtc20hw7h0"
+          }
+        ]
+      },
+      {
+        "name": "Cyberpunk 2077",
+        "rating": 7.9,
+        "desc": "Cyberpunk 2077 is a 2020 action role-playing game developed by CD Projekt Red. Set in the dystopian Night City, players assume the role of V, a mercenary whose cybernetic implants unlock the key to immortality. The game features a branching narrative, open-world exploration, and deep customization. Despite a rocky launch, multiple patches and next-gen upgrades have improved performance.",
+        "trailer": "https://www.youtube.com/embed/LembwKDo1Dk",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/cyberpunk-2077/bxqtc16z7s1f"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA12328_00-CYBERPUNK207700"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Fantasy",
+    "games": [
+      {
+        "name": "Bioshock Infinite",
+        "rating": 9,
+        "desc": "BioShock Infinite is a 2013 first-person shooter developed by Irrational Games and published by 2K Games. Set in the floating city of Columbia in 1912, the player assumes the role of Booker DeWitt, sent to rescue Elizabeth, a young woman with reality-altering powers. The game is praised for its narrative, art style, and social commentary.",
+        "trailer": "https://www.youtube.com/embed/FZfqOQYpBDM",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/8870/BioShock_Infinite/"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/bioshock-infinite/bxqtc162hxnm"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00050_00-BIOSHOCKINFINITE0"
+          }
+        ]
+      },
+      {
+        "name": "Just Cause 2",
+        "rating": 7.5,
+        "desc": "Just Cause 2 is a 2010 action-adventure game developed by Avalanche Studios and published by Square Enix. Set on the fictional island of Panau, the player controls Rico Rodriguez on a mission to overthrow a dictator. The game is notable for its vast open world, over-the-top stunts, grappling hook, and wingsuit traversal.",
+        "trailer": "https://www.youtube.com/embed/FQcBgkVdT6U",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/8190/Just_Cause_2/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00013_00-JUSTCAUSE200000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/just-cause-2/bxqtc162hxqp"
+          }
+        ]
+      },
+      {
+        "name": "Just Cause 3",
+        "rating": 7,
+        "desc": "Just Cause 3 is a 2015 action-adventure game developed by Avalanche Studios and published by Square Enix. Taking place on the fictional Mediterranean island of Medici, players again control Rico Rodriguez as he attempts to overthrow a dictator. The game expands on the series’ signature chaos with improved physics, destructible environments, and an even larger open world.",
+        "trailer": "https://www.youtube.com/embed/0Q2BjWswLsE",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/225540/Just_Cause_3/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00013_00-JUSTCAUSE300000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/just-cause-3/bxqtc1g29w1j"
+          }
+        ]
+      },
+      {
+        "name": "Borderlands 2",
+        "rating": 8.9,
+        "desc": "Borderlands 2 is a 2012 action role-playing first-person shooter developed by Gearbox Software and published by 2K Games. Set on the planet Pandora, players choose from four new Vault Hunters, embark on quests to hunt the legendary Vault, and confront the bandit-tyrant Handsome Jack. The game is celebrated for its humor, loot mechanics, and co-op gameplay.",
+        "trailer": "https://www.youtube.com/embed/8K77r6bGMGw",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/49520/Borderlands_2/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00003_00-BORDERLANDS20000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/borderlands-2/bxqtc162hqdm"
+          }
+        ]
+      },
+      {
+        "name": "A Plague Tale: Innocence",
+        "rating": 8.5,
+        "desc": "A Plague Tale: Innocence is a 2019 action-adventure game developed by Asobo Studio and published by Focus Home Interactive. Set in 14th-century France during the Black Death, players control Amicia de Rune and her younger brother Hugo as they evade Inquisition soldiers and swarms of supernatural rats. Known for its emotional storytelling, stealth mechanics, and atmospheric presentation.",
+        "trailer": "https://www.youtube.com/embed/QJCdJ2pGkd4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA14069_00-APLATUAGFURY0200"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/a-plague-tale-innocence/bxqtc18vbfd0"
+          }
+        ]
+      },
+      {
+        "name": "Life Is Strange: Deluxe Edition",
+        "rating": 8.3,
+        "desc": "Life Is Strange is a 2015 episodic graphic adventure game developed by Dontnod Entertainment and published by Square Enix. In the Deluxe Edition, players follow Max Caulfield, a photography student who discovers she can rewind time. Along with bonus content (director’s commentary and behind-the-scenes), the game emphasizes player choice, narrative, and supernatural elements.",
+        "trailer": "https://www.youtube.com/embed/9J2k-fE8WXk",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/319630/Life_Is_Strange_Deluxe_Edition/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00787_00-LIFEISTRANBELIE"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/life-is-strange-deluxe-edition/bxqtc162hhlt"
+          }
+        ]
+      },
+      {
+        "name": "Mad Max",
+        "rating": 7.7,
+        "desc": "Mad Max is a 2015 action-adventure game developed by Avalanche Studios and published by Warner Bros. Interactive Entertainment. Set in an open-world wasteland inspired by the Mad Max films, players control Max Rockatansky, scavenging for resources, building the “Magnum Opus” vehicle, and engaging in vehicular combat and on-foot skirmishes against various gangs.",
+        "trailer": "https://www.youtube.com/embed/tf2-c2Iu4KI",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/234140/Mad_Max/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA01313_00-MADMAX000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/mad-max/bxqtc19v179t"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "World-War-Sage",
+    "games": [
+      {
+        "name": "Battlefield 1",
+        "rating": 8,
+        "desc": "Battlefield 1 is a 2016 first-person shooter developed by DICE and published by Electronic Arts. Set during World War I, players experience various theaters of war through a single-player War Stories campaign and expansive multiplayer. The game is known for its authentic weaponry, large-scale battles, and dynamic environments.",
+        "trailer": "https://www.youtube.com/embed/G5k0vzLECvg",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1238840/Battlefield_1/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00524_00-BAT1FULLGAME00000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/battlefield-1/bxqtc162hqbh"
+          }
+        ]
+      },
+      {
+        "name": "Call Of Duty: World at War",
+        "rating": 8.2,
+        "desc": "Call of Duty: World at War is a 2008 first-person shooter developed by Treyarch and published by Activision. Set during World War II, players fight through the Pacific and Eastern Fronts. The game introduced the Nazi Zombies cooperative mode, expanded campaign scenarios, and realistic wartime weapons.",
+        "trailer": "https://www.youtube.com/embed/w7oQNbpgp3Y",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/214946/Call_of_Duty_World_at_War/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0001-NPUA90096_00-WORLDATWAR000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-world-at-war/bxqtc162g1mc"
+          }
+        ]
+      },
+      {
+        "name": "Call of Duty: WWII",
+        "rating": 7.4,
+        "desc": "Call of Duty: WWII is a 2017 first-person shooter developed by Sledgehammer Games and published by Activision. Returning to a World War II setting, the single-player campaign follows a squad from the 1st Infantry Division in Europe. Multiplayer emphasizes boots-on-ground combat with classic WWII weapons, while the Zombies mode returns with a supernatural storyline.",
+        "trailer": "https://www.youtube.com/embed/StPPMhMCu4Y",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/583950/Call_of_Duty_WWII/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0002-CUSA07922_00-CODWWII000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-wwii/bxqtc1g7fj7d"
+          }
+        ]
+      },
+      {
+        "name": "Mafia II",
+        "rating": 7.8,
+        "desc": "Mafia II is a 2010 action-adventure game developed by 2K Czech and published by 2K Games. Set in Empire Bay during the 1940s and 1950s, players follow Vito Scaletta, a war veteran who becomes involved with the Mafia. The game emphasizes narrative, period-authentic vehicles, and open-world exploration.",
+        "trailer": "https://www.youtube.com/embed/v8dW902S_Xk",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/50130/MAFIA_II/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00340_00-MAFA2GAME0000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/mafia-ii/bxqtc162hxpp"
+          }
+        ]
+      },
+      {
+        "name": "Wolfenstein II: The New Colossus",
+        "rating": 8.7,
+        "desc": "Wolfenstein II: The New Colossus is a 2017 first-person shooter developed by MachineGames and published by Bethesda Softworks. Set in an alternate 1961 America occupied by Nazis, players take on William “B.J.” Blazkowicz as he leads the resistance. The game is known for its fast-paced combat, strong narrative, and stylized art direction.",
+        "trailer": "https://www.youtube.com/embed/pvdqWkaDuNE",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/524220/Wolfenstein_II_The_New_Colossus/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA07720_00-WOLF2THE00000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/wolfenstein-ii-the-new-colossus/bxqtc1g9540g"
+          }
+        ]
+      },
+      {
+        "name": "Call of Duty: Black Ops",
+        "rating": 7.4,
+        "desc": "Call of Duty: Black Ops is a 2010 first-person shooter developed by Treyarch and published by Activision. Set during the Cold War, players control Alex Mason across missions in Vietnam, Russia, and Cuba. The game introduced a popular Zombies mode and expanded multiplayer with weapons, perks, and customization.",
+        "trailer": "https://www.youtube.com/embed/6eD0MIqIKLU",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/42760/Call_of_Duty_Black_Ops/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0001-NPUA90095_00-BLACKOPS00000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-black-ops/bxqtc162hxp6"
+          }
+        ]
+      },
+      {
+        "name": "Call of Duty: Black Ops II",
+        "rating": 7.9,
+        "desc": "Call of Duty: Black Ops II is a 2012 first-person shooter developed by Treyarch and published by Activision. Featuring a branching storyline set in 2025, players control Alex Mason’s son, David, and Treyarch reintroduces fan-favorite characters. The game’s multiplayer and Zombies modes received high praise for depth and innovation.",
+        "trailer": "https://www.youtube.com/embed/Y_-mE_VXdfQ",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/20900/Call_of_Duty_Black_Ops_II/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00203_00-BLACKOPSII000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/call-of-duty-black-ops-ii/bxqtc162hx6k"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Survival",
+    "games": [
+      {
+        "name": "Tomb Raider",
+        "rating": 7.5,
+        "desc": "Tomb Raider (2013) is an action-adventure game developed by Crystal Dynamics and published by Square Enix. Serving as a reboot of the series, players control Lara Croft as she becomes stranded on a mysterious island and must survive against deadly inhabitants. The game is noted for its strong narrative, survival mechanics, and environmental puzzles.",
+        "trailer": "https://www.youtube.com/embed/_i2O4RzdHWs",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/203160/Tomb_Raider/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00109_00-TOMBRAIDER000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/tomb-raider/bxqtc162hm56"
+          }
+        ]
+      },
+      {
+        "name": "Rise of the Tomb Raider",
+        "rating": 8.7,
+        "desc": "Rise of the Tomb Raider is a 2015 action-adventure game developed by Crystal Dynamics and published by Square Enix. Continuing Lara Croft’s journey, the story follows her quest for the legendary city of Kitezh in Siberia. It features enhanced survival mechanics, more expansive environments, and refined traversal compared to its predecessor.",
+        "trailer": "https://www.youtube.com/embed/48R6fFvUg3w",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/391220/Rise_of_the_Tomb_Raider/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA01025_00-RISERISE000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/rise-of-the-tomb-raider/bxqtc1g2wz38"
+          }
+        ]
+      },
+      {
+        "name": "Shadow of the Tomb Raider",
+        "rating": 8.2,
+        "desc": "Shadow of the Tomb Raider is a 2018 action-adventure game developed by Eidos-Montréal and published by Square Enix. Concluding Lara Croft’s origin trilogy, the story follows her as she races to stop a Mayan apocalypse and save the world. It introduces deeper stealth mechanics, improved crafting, and more challenging tomb puzzles.",
+        "trailer": "https://www.youtube.com/embed/UEf4S7o5W54",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/750920/Shadow_of_the_Tomb_Raider/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0002-CUSA09227_00-SHADOWOFTR0000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/shadow-of-the-tomb-raider-definitive-edition/bxqtc15kn79k"
+          }
+        ]
+      },
+      {
+        "name": "Dying Light 2",
+        "rating": 8,
+        "desc": "Dying Light 2 Stay Human is a 2022 action role-playing survival horror game developed and published by Techland. Set 22 years after the original, players control Aiden Caldwell in a post-apocalyptic open world infested with zombies. The game emphasizes parkour traversal, branching narrative, and co-op gameplay.",
+        "trailer": "https://www.youtube.com/embed/RpxvPjwUqM4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP1004-CUSA17625_00-DYINGLIGHT200000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/dying-light-2-stay-human/bxqtc1gvbrxr"
+          }
+        ]
+      },
+      {
+        "name": "The Walking Dead: All Seasons",
+        "rating": 9,
+        "desc": "The Walking Dead: A Telltale Games Series (All Seasons) is a 2017 collection of episodic graphic adventure games developed and published by Telltale Games. Following Lee Everett and Clementine in a zombie apocalypse, the game focuses on narrative choice, character relationships, and moral dilemmas. This full series includes Seasons 1–4 and the Michonne miniseries.",
+        "trailer": "https://www.youtube.com/embed/DnLR6Eyh_Ag",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/sub/56259/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP1051-CUSA11777_00-THEWLDALLSEASONS"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/the-walking-dead-the-complete-series-experience/bxqtc1gsmzmh"
+          }
+        ]
+      },
+      {
+        "name": "Far Cry 4",
+        "rating": 8.2,
+        "desc": "Far Cry 4 is a 2014 first-person shooter developed by Ubisoft Montreal and published by Ubisoft. Set in the fictional Himalayan country of Kyrat, players control Ajay Ghale who becomes embroiled in a civil war against a despotic king, Pagan Min. The game features open-world exploration, dynamic combat, and cooperative multiplayer.",
+        "trailer": "https://www.youtube.com/embed/eJEa4dKfmD4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/242050/Far_Cry_4/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA00556_00-F4COMPLETEED0000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/far-cry-4/bxqtc1gv1p50"
+          }
+        ]
+      },
+      {
+        "name": "The Division 2",
+        "rating": 8.1,
+        "desc": "Tom Clancy’s The Division 2 is a 2019 online action role-playing game developed by Massive Entertainment and published by Ubisoft. Set in a post-apocalyptic Washington, D.C., after a smallpox pandemic, players control Division agents who attempt to restore order. The game features a persistent open world, strong co-op mechanics, and RPG progression.",
+        "trailer": "https://www.youtube.com/embed/jZTaEmJbgkc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/2221490/Tom_Clancys_The_Division_2/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA11545_00-DIVISION200000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/tom-clancys-the-division-2/bxqtc1g5jwtl"
+          }
+        ]
+      },
+      {
+        "name": "Metro Exodus",
+        "rating": 8.4,
+        "desc": "Metro Exodus is a 2019 first-person shooter with survival horror elements developed by 4A Games and published by Deep Silver. Based on Dmitry Glukhovsky’s Metro novels, the player controls Artyom on a journey across post-apocalyptic Russia. The game combines linear levels with expansive semi-open hubs, emphasizing resource management and stealth.",
+        "trailer": "https://www.youtube.com/embed/-sSzHfHM0QM",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/412020/Metro_Exodus/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA10306_00-METROEXODUS00000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/metro-exodus/bxqtc19m3fbr"
+          }
+        ]
+      },
+      {
+        "name": "Syberia: The World Before",
+        "rating": 7.3,
+        "desc": "Syberia: The World Before is a 2022 graphic adventure game developed by Microids and KO_Op, published by Microids. As a prequel/sequel hybrid to the Syberia series, it follows two protagonists—Dana Roze in 1937 Europe and Kate Walker in 2004—interweaving their stories in a surreal steampunk world. The game emphasizes puzzles, exploration, and an emotional narrative.",
+        "trailer": "https://www.youtube.com/embed/Ln7seY3QrAc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1088050/Syberia_The_World_Before/"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP4403-CUSA25655_00-SYBERIATWB000000"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-us/p/syberia-the-world-before/bxqtc1hmm45k"
+          }
+        ]
+      },
+      {
+        "name": "Uncharted 4: A Thief's End",
+        "rating": 9,
+        "desc": "Uncharted 4: A Thief’s End is a 2016 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. Following retired treasure hunter Nathan Drake as he is drawn back into a globe-trotting adventure, the game features high-octane set pieces, cinematic storytelling, and a refined third-person combat and traversal system.",
+        "trailer": "https://www.youtube.com/embed/4r5tUO0v0lc",
+        "buy": [
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP9000-CUSA05617_00-UNCHARTED4GAME00"
+          }
+        ]
+      },
+      {
+        "name": "Uncharted: The Lost Legacy",
+        "rating": 8.2,
+        "desc": "Uncharted: The Lost Legacy is a 2017 action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment. A standalone expansion to Uncharted 4, players control Chloe Frazer and Nadine Ross on a quest in India to retrieve an ancient artifact. The game focuses on exploration, puzzle-solving, and refined combat mechanics.",
+        "trailer": "https://www.youtube.com/embed/W8k-gAG8Vac",
+        "buy": [
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP9000-CUSA06146_00-UNCHARTEDLLGAME00"
+          }
+        ]
+      },
+      {
+        "name": "The Last of Us Part I & Part II",
+        "rating": 9.8,
+        "desc": "The Last of Us Part I (2013) and Part II (2020) are action-adventure games developed by Naughty Dog and published by Sony Interactive Entertainment. Set in a post-apocalyptic United States, Part I follows Joel and Ellie as they traverse a fungal-infected world. Part II continues Ellie’s story, focusing on themes of revenge, loss, and hope. Both are acclaimed for narrative depth, character development, and gameplay immersion.",
+        "trailer": "https://www.youtube.com/embed/qvOj0jIjkW0",
+        "buy": [
+          {
+            "for": "PlayStation 3 (Part I)",
+            "link": "https://store.playstation.com/en-us/product/UP9000-NPUB30696_00-THELASTOFUS00000"
+          },
+          {
+            "for": "PlayStation 4 (Part II)",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA11713_00-THELASTOFUSPART2"
+          }
+        ]
+      },
+      {
+        "name": "The Callisto Protocol",
+        "rating": 6,
+        "desc": "The Callisto Protocol is a 2022 survival horror game developed by Striking Distance Studios and published by Krafton. Set in 2320 on Jupiter’s moon Callisto, players control Jacob Lee, a prisoner who fights through mutated creatures and corrupt guards to escape Black Iron Prison. The game emphasizes tense combat, atmospheric environments, and storytelling via logs and codex entries.",
+        "trailer": "https://www.youtube.com/embed/1IHfaKW5G38",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1137460/The_Callisto_Protocol/"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA28452_00-THECALLISTOPROTO"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-us/p/the-callisto-protocol/bxqtc2gwk8f0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Modern-Combat",
+    "games": [
+      {
+        "name": "Battlefield: Bad Company 2",
+        "rating": 8.5,
+        "desc": "Battlefield: Bad Company 2 is a 2010 first-person shooter developed by DICE and published by Electronic Arts. Following the misadventures of Bad Company, a group of misfit soldiers, the game features a single-player campaign set during a fictional war and a robust multiplayer mode with destructible environments (Frostbite 1.5 engine).",
+        "trailer": "https://www.youtube.com/embed/xy9COg6CAOw",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/20179/Battlefield_Bad_Company_2/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00007_00-BFBADCMP2GAME000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/battlefield-bad-company-2/bxqtc162g0vj"
+          }
+        ]
+      },
+      {
+        "name": "Ace Combat 7: Skies Unknown",
+        "rating": 8.3,
+        "desc": "Ace Combat 7: Skies Unknown is a 2019 combat flight simulation game developed by Bandai Namco Studios and published by Bandai Namco Entertainment. Set in the fictional world of Usea, players pilot modern fighter jets across a cinematic single-player campaign and online multiplayer. It features VR support, a deep storyline about war and geopolitics, and realistic flight mechanics.",
+        "trailer": "https://www.youtube.com/embed/QZMU0Uj8mFs",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1237970/Ace_Combat_7_Skies_Unknown/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA11848_00-ACECOMBAT700000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/ace-combat-7-skies-unknown/bxqtc1gz3d4b"
+          }
+        ]
+      },
+      {
+        "name": "Sniper Elite 4",
+        "rating": 8.1,
+        "desc": "Sniper Elite 4 is a 2017 tactical shooter stealth game developed and published by Rebellion Developments. Set in 1943 Italy, players assume the role of an Allied sniper sabotaging Axis operations. The game is known for its realistic ballistics, open-level design, and “X-ray kill cam” feature highlighting bullet trajectories and impacts on anatomy.",
+        "trailer": "https://www.youtube.com/embed/A6V2qw29nVg",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/314980/Sniper_Elite_4/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA04855_00-SNIPERELITE40000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/sniper-elite-4/bxqtc1g6j0pj"
+          }
+        ]
+      },
+      {
+        "name": "Tom Clancy's Ghost Recon Breakpoint",
+        "rating": 6.8,
+        "desc": "Tom Clancy’s Ghost Recon Breakpoint is a 2019 tactical shooter developed by Ubisoft Paris and published by Ubisoft. Set on the fictional island of Auroa, players control Nomad, a Ghost inserted behind enemy lines to combat a rogue Unit 42 led by Cole D. Walker (played by Jon Bernthal). The game emphasizes team-based tactics, PvE co-op, and survival elements in the open world.",
+        "trailer": "https://www.youtube.com/embed/NbFe0w3lFLk",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/823500/Tom_Clancys_Ghost_Recon_Breakpoint/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA12509_00-GHOSTRECONBRE0000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/tom-clancys-ghost-recon-breakpoint/bxqtc1g4h4z5"
+          }
+        ]
+      },
+      {
+        "name": "ARMA 3",
+        "rating": 8.2,
+        "desc": "ARMA 3 is a 2013 military tactical shooter simulation game developed and published by Bohemia Interactive. Set on the fictional Mediterranean islands of Altis and Stratis in 2035, players experience realistic soldier simulation with large-scale combined arms warfare. The game features an expansive single-player campaign, mod-friendly tools, and extensive multiplayer scenarios.",
+        "trailer": "https://www.youtube.com/embed/yIZuR4M59Mc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/107410/Arma_3/"
+          }
+        ]
+      },
+      {
+        "name": "Insurgency: Sandstorm",
+        "rating": 7.5,
+        "desc": "Insurgency: Sandstorm is a 2018 tactical first-person shooter developed by New World Interactive and published by Focus Home Interactive. Emphasizing realism and teamwork, players choose between U.S. or Insurgent forces in modern Middle East settings. The game features objective-based multiplayer matches, a co-op mode, and high-damage, low-TTK gunplay.",
+        "trailer": "https://www.youtube.com/embed/1nKkYGNtgaY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/581320/Insurgency_Sandstorm/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA14376_00-INSURGENCYSS000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/insurgency-sandstorm/bxqtc1h35928"
+          }
+        ]
+      },
+      {
+        "name": "Ready or Not",
+        "rating": 7.4,
+        "desc": "Ready or Not is a 2021 tactical first-person shooter developed by VOID Interactive. In an early access state as of 2025, the game simulates realistic SWAT operations in hostage rescue, bomb defusal, and active-shooter scenarios. It features detailed environments, advanced AI, and a focus on planning and communication.",
+        "trailer": "https://www.youtube.com/embed/VV8bLhvXo_4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1144200/Ready_or_Not/"
+          }
+        ]
+      },
+      {
+        "name": "Battlefield 3",
+        "rating": 8.1,
+        "desc": "Battlefield 3 is a 2011 first-person shooter developed by DICE and published by Electronic Arts. Set in a fictional conflict between the United States and Russia, the game features a cinematic single-player campaign and a robust multiplayer suite. It introduced the Frostbite 2 engine, offering highly destructible environments and large-scale maps.",
+        "trailer": "https://www.youtube.com/embed/mKq-Hg_t_Ps",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/12369/BATTLEFIELD_3/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00013_00-BATTLEFIELDPACK"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/battlefield-3/bxqtc162hxnj"
+          }
+        ]
+      },
+      {
+        "name": "Battlefield 4",
+        "rating": 7.8,
+        "desc": "Battlefield 4 is a 2013 first-person shooter developed by DICE and published by Electronic Arts. Picking up five years after BF3, it follows U.S. Marine Recker and Sgt. Blackburn in a fictional conflict involving Russia and China. The game expanded multiplayer with the Conquest mode, Levolution events, and introduced the Frostbite 3 engine.",
+        "trailer": "https://www.youtube.com/embed/3vGhONe19IQ",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1238840/Battlefield_4/?l=english"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA01595_00-BF4COMPLETEED000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/battlefield-4/bxqtc1g3x9wg"
+          }
+        ]
+      },
+      {
+        "name": "Metal Gear Solid V: The Phantom Pain",
+        "rating": 9.4,
+        "desc": "Metal Gear Solid V: The Phantom Pain is a 2015 action-adventure stealth game developed by Kojima Productions and published by Konami. As a sequel to Ground Zeroes, players control Big Boss (Punished “Venom” Snake) as he establishes Diamond Dogs and seeks revenge against Skull Face. The game features an open world, base building, and refined stealth mechanics.",
+        "trailer": "https://www.youtube.com/embed/_lbIBu7JXBM",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/287700/Metal_Gear_Solid_V_The_Phantom_Pain/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA00003_00-MGSVTHEPHANTOMP"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/metal-gear-solid-v-the-phantom-pain/bxqtc1g6r96w"
+          }
+        ]
+      },
+      {
+        "name": "Gears of War 5",
+        "rating": 8.2,
+        "desc": "Gears of War 5 is a 2019 third-person shooter developed by The Coalition and published by Xbox Game Studios. Following Kait Diaz and the COG as they face the Swarm, this installment expands the Gears universe with new open-level sections, Horde 3.0, and split-screen co-op. The game is praised for its graphics, story-driven campaign, and refined cover-based combat.",
+        "trailer": "https://www.youtube.com/embed/eETcz2I0tcc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1097840/Gears_of_War_5/"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/gears-of-war-5/bxqtc1g2s49m"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Assassins-Creed-Aftermath",
+    "games": [
+      {
+        "name": "Assassin's Creed IV: Black Flag",
+        "rating": 8.5,
+        "desc": "Assassin’s Creed IV: Black Flag is a 2013 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Set in the Golden Age of Piracy, players assume the role of Edward Kenway, a pirate/Assassin sailing the Caribbean. The game introduced naval combat as a core mechanic and features an expansive open world of islands, cities, and naval battles.",
+        "trailer": "https://www.youtube.com/embed/XNLBKQb7t4A",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/242050/Assassins_Creed_IV_Black_Flag/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00769_00-ACIVBLACKFLAG000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-4-black-flag/bxqtc162g06g"
+          }
+        ]
+      },
+      {
+        "name": "Assassin's Creed III Remastered",
+        "rating": 6.8,
+        "desc": "Assassin’s Creed III Remastered is a 2019 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. A remaster of the 2012 title, it features improved visuals, all DLC packs, and photo mode. Players control Connor Kenway during the American Revolution, exploring open-world Boston and New York.",
+        "trailer": "https://www.youtube.com/embed/ljbbVNP0xIY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1172380/Assassins_Creed_III_Remastered/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA11631_00-ACIIIREMSTERED00"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-iii-remastered/bxqtc1g9l1hv"
+          }
+        ]
+      },
+      {
+        "name": "Assassin's Creed Unity",
+        "rating": 7,
+        "desc": "Assassin’s Creed Unity is a 2014 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Set during the French Revolution, players control Arno Dorian in an open-world Paris. Unity introduced cooperative multiplayer missions, a revamped parkour system, and highly detailed crowds, though it launched with technical issues that were gradually patched.",
+        "trailer": "https://www.youtube.com/embed/dRKi9kYGEJQ",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/289650/Assassins_Creed_Unity/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00908_00-ACUNITY000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-unity/bxqtc1g6g6tv"
+          }
+        ]
+      },
+      {
+        "name": "Assassin's Creed Syndicate",
+        "rating": 7.3,
+        "desc": "Assassin’s Creed Syndicate is a 2015 action-adventure game developed by Ubisoft Quebec and published by Ubisoft. Set in Victorian London, players control twins Jacob and Evie Frye as they fight to liberate the city from Templar control. Syndicate introduced rope launcher traversal, street gang management, and a refined combat system.",
+        "trailer": "https://www.youtube.com/embed/pDNJJe0cQj0",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/368150/Assassins_Creed_Syndicate/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00936_00-ACSYN00000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-syndicate/bxqtc1gp0nf0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Comical",
+    "games": [
+      {
+        "name": "Batman: Arkham Asylum",
+        "rating": 9.2,
+        "desc": "Batman: Arkham Asylum is a 2009 action-adventure game developed by Rocksteady Studios and published by Eidos Interactive. Set within Arkham Asylum, the game follows Batman as he contains the Joker’s latest plot. It’s lauded for its combat “Freeflow” system, stealth mechanics, and strong narrative performed by Kevin Conroy and Mark Hamill.",
+        "trailer": "https://www.youtube.com/embed/VjGzA7pdSdw",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0001-NPUB30244_00-BATMANAO55000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/batman-arkham-asylum-goty-edition/bxqtc162h2lf"
+          }
+        ]
+      },
+      {
+        "name": "Batman: Arkham City",
+        "rating": 9.4,
+        "desc": "Batman: Arkham City is a 2011 action-adventure game developed by Rocksteady Studios and published by Warner Bros. Interactive Entertainment. Taking place one year after Arkham Asylum, Bruce Wayne must protect Arkham City—a super-prison built by Gotham City’s mayor. The game expands on its predecessor’s mechanics with a larger open world, new gadgets, and side quests.",
+        "trailer": "https://www.youtube.com/embed/_t_6QJODnIE",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/200260/Batman_Arkham_City_Game_of_the_Year_Edition/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0001-NPUB30372_00-BATMANACITGOTE00"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/batman-arkham-city-goty/bxqtc162h2p1"
+          }
+        ]
+      },
+      {
+        "name": "Spider-Man (2018)",
+        "rating": 8.7,
+        "desc": "Marvel’s Spider-Man is a 2018 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment. Set in an open-world New York City, players control Peter Parker as he battles classic villains, completes side missions, and swings through the city. The game is acclaimed for its fluid traversal, engaging story, and strong combat system.",
+        "trailer": "https://www.youtube.com/embed/1XECGbFaDYg",
+        "buy": [
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0102-CUSA11549_00-MARVELSSPIDERMAN"
+          }
+        ]
+      },
+      {
+        "name": "Hogwarts Legacy",
+        "rating": 7.8,
+        "desc": "Hogwarts Legacy is a 2023 action role-playing game developed by Avalanche Software and published by Warner Bros. Interactive Entertainment. Set in the late 1800s wizarding world, players attend Hogwarts School of Witchcraft and Wizardry, learn spells, explore Hogsmeade, and uncover hidden mysteries. The game features an open world, dynamic combat, and player choice.",
+        "trailer": "https://www.youtube.com/embed/2PtbN9ELdoY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA12137_00-HOGWARTSLEGACY00"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-us/p/hogwarts-legacy/bxqtc19j7zb8"
+          }
+        ]
+      },
+      {
+        "name": "Smite",
+        "rating": 7.1,
+        "desc": "Smite is a 2014 third-person multiplayer online battle arena (MOBA) game developed and published by Hi-Rez Studios. Featuring gods and goddesses from various mythologies, players control a deity in team-based matches to destroy the opposing Titan. The game is known for its free-to-play model, diverse pantheon of characters, and action-oriented combat.",
+        "trailer": "https://www.youtube.com/embed/CMJ-r4X__Jk",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/386360/Smite/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00765_00-SMITE00000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/smite/bxqtc162g0kv"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Medieval-&-Mythology",
+    "games": [
+      {
+        "name": "The Elder Scrolls V: Skyrim",
+        "rating": 9.2,
+        "desc": "The Elder Scrolls V: Skyrim is a 2011 action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. Set in the province of Skyrim, players assume the role of the Dragonborn, prophesied to save the world from Alduin, an ancient dragon. The game is renowned for its vast open world, modding community, and deep lore.",
+        "trailer": "https://www.youtube.com/embed/JSRtYpNRoN0",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00409_00-SKYRIMSPECIAL0000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/the-elder-scrolls-v-skyrim-special-edition/bxqtc1g1pv4q"
+          }
+        ]
+      },
+      {
+        "name": "God of War (2005)",
+        "rating": 9,
+        "desc": "God of War is a 2005 action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment. Based on Greek mythology, players control Kratos, a Spartan warrior on a quest for revenge against Ares, the God of War. The game features fast-paced combat, puzzle-solving, and epic boss battles.",
+        "trailer": "https://www.youtube.com/embed/qzyFgJGZ9vY",
+        "buy": [
+          {
+            "for": "PlayStation 2",
+            "link": "https://www.amazon.com/God-War-PlayStation-2/dp/B00005NZ1S"
+          },
+          {
+            "for": "PlayStation 3 (Remastered)",
+            "link": "https://store.playstation.com/en-us/product/UP9000-NPEB00522_00-GODOFWARHD0000000"
+          }
+        ]
+      },
+      {
+        "name": "God of War II",
+        "rating": 9.2,
+        "desc": "God of War II is a 2007 action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment. Continuing Kratos’ journey, he battles Greek gods and Titans to change his fate. The game expands on its predecessor’s combat with new weapons, larger set pieces, and refined puzzles.",
+        "trailer": "https://www.youtube.com/embed/V0yamI8Q1R4",
+        "buy": [
+          {
+            "for": "PlayStation 2",
+            "link": "https://www.amazon.com/God-War-II-PlayStation-2/dp/B000Q702J2"
+          },
+          {
+            "for": "PlayStation 3 (Collection)",
+            "link": "https://store.playstation.com/en-us/product/UP9000-NPEB00522_00-GODOFWARIII00000"
+          }
+        ]
+      },
+      {
+        "name": "God of War III",
+        "rating": 9.3,
+        "desc": "God of War III is a 2010 action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment. Concluding Kratos’ Greek saga, the game features epic scale, massive boss battles, and refined combat. It was a PlayStation 3 exclusive that showcased the power of the PS3 with its graphics and fluid gameplay.",
+        "trailer": "https://www.youtube.com/embed/YJCA7DYrZmE",
+        "buy": [
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP9000-NPEB00522_00-GODOFWARIGOPLUSMY"
+          },
+          {
+            "for": "PlayStation 4 (Remastered)",
+            "link": "https://store.playstation.com/en-us/product/UP9000-CUSA03299_00-GODOFWARIIIHD000"
+          }
+        ]
+      },
+      {
+        "name": "God of War Ragnarök",
+        "rating": 9.5,
+        "desc": "God of War Ragnarok is a 2022 action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. Set Norse mythology, players control Kratos and his son Atreus as they attempt to prevent Ragnarök. The game expands on the 2018 God of War’s open-world elements, deepens character relationships, and delivers epic boss encounters.",
+        "trailer": "https://www.youtube.com/embed/RMPS5uPv_6o",
+        "buy": [
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA18299_00-GOWRAGNAROKGAME"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA28654_00-GOWRAGNAROKGAME"
+          }
+        ]
+      },
+      {
+        "name": "Dark Souls Remastered",
+        "rating": 9.1,
+        "desc": "Dark Souls Remastered is a 2018 action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. A remaster of the 2011 classic Dark Souls, it features improved visuals, frame rate, and online functionality. Players control the undead “Chosen Undead” on a quest to link the First Flame in Lordran, facing punishing combat and intricate level design.",
+        "trailer": "https://www.youtube.com/embed/FQo6c0tI-us",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP9000-CUSA03154_00-DARKSOULSREMANU"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/dark-souls-remastered/bxqtc1g2w3b8"
+          }
+        ]
+      },
+      {
+        "name": "Assassin's Creed Valhalla",
+        "rating": 8.4,
+        "desc": "Assassin’s Creed Valhalla is a 2020 action role-playing game developed by Ubisoft Montreal and published by Ubisoft. Set during the Viking expansion into England, players control Eivor, leading raids on Saxon kingdoms while balancing Norse and Anglo-Saxon politics. The game features a vast open world, settlement building, and new stealth mechanics adapted to a Viking setting.",
+        "trailer": "https://www.youtube.com/embed/zV0iNVyQskY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1588520/Assassins_Creed_Valhalla/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA12625_00-ACVALHALLAAAA001"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/assassins-creed-valhalla/bxqtc1jll8zx"
+          }
+        ]
+      },
+      {
+        "name": "The Witcher 3: Wild Hunt",
+        "rating": 9.6,
+        "desc": "The Witcher 3: Wild Hunt is a 2015 action role-playing game developed by CD Projekt Red and published by CD Projekt. Based on Andrzej Sapkowski’s novels, players control Geralt of Rivia on a quest to find Ciri while battling the Wild Hunt. The game features a massive open world, branching narratives, challenging combat, and deep lore.",
+        "trailer": "https://www.youtube.com/embed/c0i88t0Kacs",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP9000-CUSA01772_00-THEWITCHER300000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/the-witcher-3-wild-hunt/bxqtc1g366fl"
+          }
+        ]
+      },
+      {
+        "name": "Hellblade: Senua's Sacrifice",
+        "rating": 8.6,
+        "desc": "Hellblade: Senua’s Sacrifice is a 2017 action-adventure game developed and published by Ninja Theory. Following Senua, a Celtic warrior who suffers from psychosis, players journey into a vision of Viking Hell to rescue her lover’s soul. The game is praised for its portrayal of mental illness, immersive audio design, and dark atmosphere.",
+        "trailer": "https://www.youtube.com/embed/8FocNbYWVJU",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/414340/Hellblade_Senuas_Sacrifice/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA07360_00-HELLBLADEPCKA360"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/hellblade-senuas-sacrifice/bxqtc1f0w5ls"
+          }
+        ]
+      },
+      {
+        "name": "Sekiro: Shadows Die Twice",
+        "rating": 9.3,
+        "desc": "Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. Set in late 16th-century Sengoku Japan, players control a shinobi known as Wolf on a quest to rescue his kidnapped lord. The game emphasizes precise swordplay, stealth, and a resurrection mechanic that allows players to come back from the brink of death.",
+        "trailer": "https://www.youtube.com/embed/XKX0gqc8XZE",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA07280_00-SEKIROGAME0000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/sekiro-shadows-die-twice/bxqtc1g57b8c"
+          }
+        ]
+      },
+      {
+        "name": "Red Dead Redemption",
+        "rating": 9.7,
+        "desc": "Red Dead Redemption is a 2010 action-adventure game developed by Rockstar San Diego and published by Rockstar Games. Set in 1911, players control John Marston as he hunts down former gang members to secure his family’s freedom. The game features an open world set in the American frontier, horseback riding, duels, and a memorable narrative.",
+        "trailer": "https://www.youtube.com/embed/3Fo2zyN7igQ",
+        "buy": [
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP1004-NPUB30403_00-REDDRDR000000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/red-dead-redemption/bxqtc162hnl2"
+          }
+        ]
+      },
+      {
+        "name": "Red Dead Redemption 2",
+        "rating": 9.8,
+        "desc": "Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. A prequel to Red Dead Redemption, players control Arthur Morgan, a member of the Van der Linde gang, as they navigate the decline of the Wild West. The game is praised for its stunning open world, rich storytelling, and deep character interactions.",
+        "trailer": "https://www.youtube.com/embed/eaW0tYpxyp0",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP1004-CUSA02148_00-REDDEADR2G000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/red-dead-redemption-2/bxqtc1g5kz8l"
+          }
+        ]
+      },
+      {
+        "name": "Mortal Kombat 11",
+        "rating": 7.9,
+        "desc": "Mortal Kombat 11 is a 2019 fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. Featuring a roster of iconic fighters, the game introduces the “Kameo” support system, expanded Fatalities, and a cinematic story mode. Mortal Kombat 11 is praised for its graphics, balance, and extensive post-launch DLC.",
+        "trailer": "https://www.youtube.com/embed/U8lYhi2lH6M",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/976310/Mortal_Kombat_11/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA11600_00-MORTALKOMBAT11000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/mortal-kombat-11/bxqtc1g23t8m"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Secret-Service",
+    "games": [
+      {
+        "name": "James Bond 007: Legends",
+        "rating": 5.8,
+        "desc": "James Bond 007: Legends is a 2012 first-person shooter developed by Eurocom and published by Activision. Featuring levels inspired by classic Bond films, players assume Bond in a single-player campaign that ties into Skyfall’s story. The game includes multiplayer and cooperative modes but was criticized for technical issues and design inconsistencies.",
+        "trailer": "https://www.youtube.com/embed/hyuwxXiu5J0",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/231890/James_Bond_007_Legends/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP1004-NPUB30702_00-JBONDLEGENDS0000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/james-bond-007-legends/bxqtc162ggqc"
+          }
+        ]
+      },
+      {
+        "name": "Hitman 2",
+        "rating": 8.4,
+        "desc": "Hitman 2 is a 2018 stealth game developed by IO Interactive and published by Warner Bros. Interactive Entertainment. Continuing Agent 47’s story, players travel to exotic locations like Miami, Colombia, and Mumbai to complete assassinations. The game refines the sandbox assassination formula with new gadgets, persistent challenges, and an expanded Contracts mode.",
+        "trailer": "https://www.youtube.com/embed/RtiFaVZ4wes",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/863550/HITMAN_2/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA11406_00-HITMAN2201800000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/hitman-2/bxqtc1g9qq9f"
+          }
+        ]
+      },
+      {
+        "name": "Watch Dogs 2",
+        "rating": 8,
+        "desc": "Watch Dogs 2 is a 2016 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Set in a fictionalized San Francisco, players control Marcus Holloway, a hacker who joins the DedSec group to take down corrupt corporations. The game features an open world, hacking mechanics, and a variety of mission approaches.",
+        "trailer": "https://www.youtube.com/embed/BsKZPEVnOTo",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/447040/Watch_Dogs_2/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00662_00-WATCHDOGS200000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/watch-dogs-2/bxqtc19bmm13"
+          }
+        ]
+      },
+      {
+        "name": "Sleeping Dogs",
+        "rating": 8,
+        "desc": "Sleeping Dogs is a 2012 open-world action-adventure game developed by United Front Games and published by Square Enix (later by Warner Bros.). Set in a fictionalized Hong Kong, players control undercover cop Wei Shen as he infiltrates the Triads. The game is praised for its hand-to-hand combat, driving mechanics, and narrative.",
+        "trailer": "https://www.youtube.com/embed/wYC3NWUIjfk",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/10550/Sleeping_Dogs_Definitive_Edition/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00309_00-SLEEPINGDOGSCOM00"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/sleeping-dogs/bxqtc162hmn4"
+          }
+        ]
+      },
+      {
+        "name": "Max Payne 3",
+        "rating": 8.4,
+        "desc": "Max Payne 3 is a 2012 third-person shooter developed by Rockstar Studios and published by Rockstar Games. Following former NYPD detective Max Payne in São Paulo, Brazil, players experience a gritty narrative involving drug cartels, corporate security, and betrayal. The game’s Bullet Time mechanic and cinematic style are standout features.",
+        "trailer": "https://www.youtube.com/embed/6GkjSPyARXo",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/20720/Max_Payne_3/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0001-NPUB30408_00-MAXPAYNE30000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/max-payne-3/bxqtc162hxjp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Racing",
+    "games": [
+      {
+        "name": "Forza Horizon",
+        "rating": 8.5,
+        "desc": "Forza Horizon is a 2012 racing video game developed by Playground Games and published by Microsoft Studios. As the first in the Horizon series, it features an open-world Colorado setting, diverse car roster, and a festival vibe rather than track-focused racing. The game emphasizes exploration, varied terrain, and dynamic weather.",
+        "trailer": "https://www.youtube.com/embed/WvniPH64zAo",
+        "buy": [
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon/bxqtc162hlyb"
+          }
+        ]
+      },
+      {
+        "name": "Forza Horizon 2",
+        "rating": 8.6,
+        "desc": "Forza Horizon 2 is a 2014 racing video game developed by Playground Games and published by Microsoft Studios. Set in Southern France and Northern Italy, it builds upon Horizon’s open world with improved car handling, dynamic seasons, and expanded festival activities. The game features over 200 cars and a seamless multiplayer experience.",
+        "trailer": "https://www.youtube.com/embed/Zj0zCxpxxzk",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/222412/Forza_Horizon_2_Support_Technical_Alpha/"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon-2/bxqtc1g5gjlq"
+          }
+        ]
+      },
+      {
+        "name": "Forza Horizon 3",
+        "rating": 9,
+        "desc": "Forza Horizon 3 is a 2016 racing game developed by Playground Games and published by Microsoft Studios. Set in Australia, players can explore a wide variety of landscapes—from beaches and coral reefs to the Outback. The game introduced the Horizon Blueprint system (customizable event parameters) and cross-platform play between Xbox One and Windows 10 PC.",
+        "trailer": "https://www.youtube.com/embed/3AGvSFQwZew",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon-3/bxqtc1gbaazj"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon-3/bxqtc1g02kcb"
+          }
+        ]
+      },
+      {
+        "name": "Forza Horizon 4",
+        "rating": 9.2,
+        "desc": "Forza Horizon 4 is a 2018 racing game developed by Playground Games and published by Microsoft Studios. Set in a fictionalized Great Britain, the game features dynamic seasons that change weekly, affecting driving conditions and exploration. It offers a vast open world, over 450 cars, and an evolving narrative through Festival Playlist challenges.",
+        "trailer": "https://www.youtube.com/embed/fo5ZgJMcNiM",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon-4/bxqtc19gntzd"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon-4/bxqtc19gntzd"
+          }
+        ]
+      },
+      {
+        "name": "Forza Horizon 5",
+        "rating": 9.6,
+        "desc": "Forza Horizon 5 is a 2021 racing game developed by Playground Games and published by Microsoft Studios. Set in a highly detailed open world based on Mexico, the game features diverse biomes—from deserts to jungles—and a robust event and livery editing system. It supports cross-platform play between Xbox consoles and PC, and remains one of the highest-rated racing games ever.",
+        "trailer": "https://www.youtube.com/embed/z5r96_p2U8U",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon-5/bxqtc19jgnlr"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/forza-horizon-5/bxqtc19jgnlr"
+          }
+        ]
+      },
+      {
+        "name": "Need for Speed: Hot Pursuit (2010)",
+        "rating": 7.5,
+        "desc": "Need for Speed: Hot Pursuit is a 2010 racing game developed by Criterion Games and published by Electronic Arts. Players can choose to be racers or police in a dynamic open world based on fictional Seacrest County. The game is known for its Autolog social leaderboard system, intense police chases, and fast-paced arcade driving.",
+        "trailer": "https://www.youtube.com/embed/aV5ip8vUNns",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1038490/Need_for_Speed_Hot_Pursuit_Remastered/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0102-NPUA30152_00-NEEDFSPURSUIT0000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/need-for-speed-hot-pursuit/bxqtc162h02t"
+          }
+        ]
+      },
+      {
+        "name": "Need for Speed: Most Wanted (2012)",
+        "rating": 8.1,
+        "desc": "Need for Speed: Most Wanted is a 2012 racing game developed by Criterion Games and published by Electronic Arts. A reboot of the 2005 title, it features an open world set in the fictional city of Fairhaven. Players compete in speed challenges, evade police, and customize cars extensively. The game emphasizes high-stakes races and a connected multiplayer system.",
+        "trailer": "https://www.youtube.com/embed/gtimqNxBkJc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1838450/Need_for_Speed_Most_Wanted/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP4357-CUSA00672_00-PS3NFSWANTED0000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/need-for-speed-most-wanted/bxqtc1g40vl4"
+          }
+        ]
+      },
+      {
+        "name": "Gran Turismo 5",
+        "rating": 8.2,
+        "desc": "Gran Turismo 5 is a 2010 racing simulation game developed by Polyphony Digital and published by Sony Computer Entertainment. Featuring over 1,000 cars and real-world tracks, the game emphasizes realism with dynamic weather, day-night cycles, and detailed tuning options. It introduced online lobbies, photo mode, and first-party VR support.",
+        "trailer": "https://www.youtube.com/embed/7uTLJXADqUk",
+        "buy": [
+          {
+            "for": "PlayStation 3",
+            "link": "https://www.amazon.com/Gran-Turismo-5-PlayStation-3/dp/B002WCTIONU"
+          }
+        ]
+      },
+      {
+        "name": "Assetto Corsa",
+        "rating": 8.8,
+        "desc": "Assetto Corsa is a 2014 racing simulation game developed by Kunos Simulazioni and published by 505 Games. Praised for its realistic physics, mod support, and wide array of licensed cars and tracks, it has become a favorite among sim-racing enthusiasts. The game supports mods on PC, offering virtually limitless customization.",
+        "trailer": "https://www.youtube.com/embed/3JZXyToL3Zg",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/244210/Assetto_Corsa/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00150_00-ASSETTOCORSA0000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/assetto-corsa/bxqtc19jmz5p"
+          }
+        ]
+      },
+      {
+        "name": "Burnout: Revenge",
+        "rating": 8,
+        "desc": "Burnout: Revenge is a 2005 racing video game developed by Criterion Games and published by Electronic Arts. Focusing on high-speed racing and vehicular combat, the game introduces the Takedown system and Crash Junction mode. It features a variety of tracks, an open-world style menu, and aggressive AI opponents.",
+        "trailer": "https://www.youtube.com/embed/jaWJekHCJgA",
+        "buy": [
+          {
+            "for": "PlayStation 2",
+            "link": "https://www.amazon.com/Burnout-Revenge-PlayStation-2/dp/B0009X29WK"
+          },
+          {
+            "for": "Xbox",
+            "link": "https://www.amazon.com/Burnout-Revenge-Xbox/dp/B0009X29WJ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Medal-of-Honor-Core",
+    "games": [
+      {
+        "name": "Medal of Honor (2010)",
+        "rating": 5.8,
+        "desc": "Medal of Honor is a 2010 first-person shooter developed by Danger Close Games and published by Electronic Arts. A reboot of the franchise, it follows Tier 1 operators of a joint CIA-Navy SEAL unit in modern Afghanistan. The game features realistic weaponry, multiplayer focused on team-based objectives, but was criticized for technical issues and lackluster campaign pacing.",
+        "trailer": "https://www.youtube.com/embed/4MS7uwhYAhc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/48220/Medal_of_Honor/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-NPUA90083_00-MEDALOFHONOR0000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/medal-of-honor/bxqtc162g1tm"
+          }
+        ]
+      },
+      {
+        "name": "Medal of Honor: Warfighter",
+        "rating": 4.9,
+        "desc": "Medal of Honor: Warfighter is a 2012 first-person shooter developed by Danger Close Games and published by Electronic Arts. A sequel to the 2010 reboot, it features Tier 1 operators on counter-terrorism missions worldwide. The game was criticized for lacking innovation and having numerous technical problems.",
+        "trailer": "https://www.youtube.com/embed/EAbk9bYxizY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/20140/Medal_of_Honor_Warfighter/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0006-NPUA80124_00-MOFWARGAME000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/medal-of-honor-warfighter/bxqtc162hphf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Futuristic-&-Sci-Fi",
+    "games": [
+      {
+        "name": "Titanfall 2",
+        "rating": 8.8,
+        "desc": "Titanfall 2 is a 2016 first-person shooter developed by Respawn Entertainment and published by Electronic Arts. Players control a Pilot with advanced mobility and can call down Titans (mechs) in large-scale multiplayer. The single-player campaign is praised for its inventive puzzles, engaging story, and time-manipulation mechanics.",
+        "trailer": "https://www.youtube.com/embed/zqMk55Zs-6Y",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1237970/Titanfall_2/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA02003_00-TITANFALL200000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/titanfall-2/bxqtc1g1k3cp"
+          }
+        ]
+      },
+      {
+        "name": "Fallout 4",
+        "rating": 8.4,
+        "desc": "Fallout 4 is a 2015 action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. Set in a post-apocalyptic Boston, the player emerges from Vault 111 to explore the Commonwealth, battle mutants, and shape the future. The game features base-building, crafting, and a branching narrative.",
+        "trailer": "https://www.youtube.com/embed/pG9FKd4qOuA",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/377160/Fallout_4/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA01423_00-FALLOUT4GAME00000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/fallout-4/bxqtc1g4z2j5"
+          }
+        ]
+      },
+      {
+        "name": "Mass Effect: Andromeda",
+        "rating": 7,
+        "desc": "Mass Effect: Andromeda is a 2017 action role-playing game developed by BioWare and published by Electronic Arts. Set in the Andromeda Galaxy, players lead the Pathfinder—either Scott or Sara Ryder—on a mission to find a new home for humanity. While praised for exploration and combat, it was criticized for technical issues and animations at launch.",
+        "trailer": "https://www.youtube.com/embed/2-FMjYUFvxY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1222700/Mass_Effect_Andromeda/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0001-CUSA05069_00-MASSDCEFUIELN00"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/mass-effect-andromeda/bxqtc19j6ld7"
+          }
+        ]
+      },
+      {
+        "name": "Star Wars Jedi: Fallen Order",
+        "rating": 8.1,
+        "desc": "Star Wars Jedi: Fallen Order is a 2019 action-adventure game developed by Respawn Entertainment and published by Electronic Arts. Set five years after Episode III: Revenge of the Sith, players control Cal Kestis, a young Jedi Padawan on the run from the Empire. The game is praised for its Metroidvania-style level design, engaging lightsaber combat, and faithful Star Wars atmosphere.",
+        "trailer": "https://www.youtube.com/embed/22k3Hz0iw5M",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1172380/Star_Wars_Jedi_Fallen_Order/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA11435_00-SWJEDIFALLEDORD"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/star-wars-jedi-fallen-order/bxqtc1g6ghk6"
+          }
+        ]
+      },
+      {
+        "name": "Deus Ex: Mankind Divided",
+        "rating": 8.1,
+        "desc": "Deus Ex: Mankind Divided is a 2016 action role-playing game developed by Eidos Montreal and published by Square Enix. Set in 2029, players control Adam Jensen, an augmented agent investigating a global conspiracy. The game features multiple playstyles—stealth, hacking, and combat—within a semi-open world of Prague and Dubai.",
+        "trailer": "https://www.youtube.com/embed/wngHjp49nZI",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/337000/Deus_Ex_Mankind_Divided/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA01480_00-DEUS_EX_DIVIDED"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/deus-ex-mankind-divided/bxqtc1hdy1xx"
+          }
+        ]
+      },
+      {
+        "name": "Detroit: Become Human",
+        "rating": 8,
+        "desc": "Detroit: Become Human is a 2018 interactive drama action-adventure game developed by Quantic Dream and published by Sony Interactive Entertainment. Set in a futuristic Detroit where androids serve humans, players switch between three android protagonists—Connor, Markus, and Kara—making choices that shape multiple branching narratives. The game is praised for its storytelling and visual fidelity.",
+        "trailer": "https://www.youtube.com/embed/6eRedHz_Mho",
+        "buy": [
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP9000-CUSA11721_00-DETROIT0000000000"
+          }
+        ]
+      },
+      {
+        "name": "Crysis 4",
+        "rating": 7.2,
+        "desc": "Crysis 4 (officially Crysis 4: Island of Infinity) is an upcoming first-person shooter in development by Crytek, announced in 2023. Building on the Crysis legacy, it promises a new single-player story set in an open world, high-fidelity graphics powered by CryEngine, and modern multiplayer modes. As of mid-2025, release details remain unconfirmed.",
+        "trailer": "https://www.youtube.com/embed/4IZVBzA3Qz0",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/2176480/Crysis_4/"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA23173_00-CRYSIS4GAME00000"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/crysis-4/bxqtc23k9thk"
+          }
+        ]
+      },
+      {
+        "name": "Halo: Reach",
+        "rating": 9.5,
+        "desc": "Halo: Reach is a 2010 first-person shooter developed by Bungie and published by Microsoft Game Studios. A prequel to Halo: Combat Evolved, it follows Noble Team on the doomed planet Reach during the Covenant invasion. The game features a cinematic single-player campaign, robust multiplayer with Forge mode, and introduced the Firefight co-op mode.",
+        "trailer": "https://www.youtube.com/embed/OxJ9QCNLBhA",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1423210/Halo_Reach/"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/halo-reach/bxqtc162hzhs"
+          },
+          {
+            "for": "Xbox Series X/S (via MCC)",
+            "link": "https://www.microsoft.com/en-US/p/halo-the-master-chief-collection/bxqtc1h3z3nw"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Super-Natural",
+    "games": [
+      {
+        "name": "Quantum Break",
+        "rating": 7.5,
+        "desc": "Quantum Break is a 2016 action-adventure third-person shooter developed by Remedy Entertainment and published by Microsoft Studios. It blends gameplay with live-action episodic cutscenes, following Jack Joyce as he acquires time-manipulation powers after a failed time machine experiment. The narrative focuses on a conflict between Jack and the Time Corporation.",
+        "trailer": "https://www.youtube.com/embed/WIdTK0IZrsQ",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/588430/Quantum_Break/"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/quantum-break/bxqtc1g1tg5l"
+          }
+        ]
+      },
+      {
+        "name": "Observer",
+        "rating": 7.2,
+        "desc": "Observer is a 2017 cyberpunk horror game developed by Bloober Team and published by Aspyr. Set in 2084, players control Detective Daniel Lazarski, an “Observer” who can hack into suspects’ memories. The game focuses on psychological horror, dystopian atmosphere, and themes of identity and technology gone wrong.",
+        "trailer": "https://www.youtube.com/embed/7VWIX9pnKrY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/496620/Observer/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA08777_00-OBSERVER00000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/observer/bxqtc1grvnfw"
+          }
+        ]
+      },
+      {
+        "name": "Prototype II",
+        "rating": 7.1,
+        "desc": "Prototype II is a 2012 action-adventure game developed by Radical Entertainment and published by Activision. Set in New York City after a viral outbreak, players control Sgt. James Heller, who gains shapeshifting powers from the Blacklight virus and seeks revenge against Alex Mercer (the protagonist of Prototype). The game emphasizes open-world traversal, brutal combat, and regeneration abilities.",
+        "trailer": "https://www.youtube.com/embed/TwAnN8P2nW0",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/10100/Prototype_2/"
+          },
+          {
+            "for": "PlayStation 3",
+            "link": "https://store.playstation.com/en-us/product/UP0001-NPUB30818_00-PROTOTYPE2000000"
+          },
+          {
+            "for": "Xbox 360",
+            "link": "https://www.microsoft.com/en-US/p/prototype-2/bxqtc162h4c9"
+          }
+        ]
+      },
+      {
+        "name": "Devil May Cry 5",
+        "rating": 8.8,
+        "desc": "Devil May Cry 5 is a 2019 action-adventure hack and slash game developed and published by Capcom. Players can control Nero, Dante, and newcomer V as they battle the demon king Urizen. The game features fast-paced combat, multiple playstyles, and stunning graphics powered by the RE Engine.",
+        "trailer": "https://www.youtube.com/embed/xu9IPAASl3I",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0102-CUSA11841_00-DMC5PS400000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/devil-may-cry-5/bxqtc19g5y9k"
+          }
+        ]
+      },
+      {
+        "name": "Remnant: From the Ashes",
+        "rating": 7.9,
+        "desc": "Remnant: From the Ashes is a 2019 action role-playing third-person shooter developed by Gunfire Games and published by Perfect World Entertainment. Set in a post-apocalyptic world overrun by interdimensional creatures, players choose from different classes and realms, battling procedurally generated dungeons and bosses. The game emphasizes co-op play and challenging combat.",
+        "trailer": "https://www.youtube.com/embed/N9n2F-DsEAI",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/617290/Remnant_From_the_Ashes/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA11834_00-REMDIRT000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/remnant-from-the-ashes/bxqtc1hxr0x3"
+          }
+        ]
+      },
+      {
+        "name": "Prey (2017)",
+        "rating": 7.2,
+        "desc": "Prey is a 2017 first-person action-adventure game developed by Arkane Studios and published by Bethesda Softworks. Set aboard the Talos I space station orbiting the Moon, players assume the role of Morgan Yu, who battles shape-shifting aliens called Typhon. The game emphasizes freedom of approach, environmental storytelling, and immersive sim mechanics.",
+        "trailer": "https://www.youtube.com/embed/Xj_iGvMR2Xo",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/480490/Prey/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA08104_00-PREY000000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/prey/bxqtc1g2xkfv"
+          }
+        ]
+      },
+      {
+        "name": "Control",
+        "rating": 8.1,
+        "desc": "Control is a 2019 action-adventure game developed by Remedy Entertainment and published by 505 Games. Players control Jesse Faden, who becomes the new Director of the Federal Bureau of Control—a secretive agency investigating paranormal phenomena. The game is known for its surreal environments, telekinetic powers, and intertwined DLC expansions (The Foundation, AWE).",
+        "trailer": "https://www.youtube.com/embed/zgGkbMZGN9I",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/870780/Control/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA12404_00-CONTROLPACK0000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/control-edition/bxqtc1jhgly6"
+          }
+        ]
+      },
+      {
+        "name": "Tekken 7",
+        "rating": 8,
+        "desc": "Tekken 7 is a 2017 fighting game developed and published by Bandai Namco Entertainment. As the final chapter of the Mishima Saga, players choose from a roster of over 40 characters, each with unique move sets and story arcs. The game features the new Rage system, a cinematic story mode, and robust online play.",
+        "trailer": "https://www.youtube.com/embed/9tDx3eQAO3k",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/389730/Tekken_7/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA00734_00-TEKKEN7GAME000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/tekken-7/bxqtc1g6mxnp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Horror",
+    "games": [
+      {
+        "name": "Doom (2016)",
+        "rating": 8.6,
+        "desc": "DOOM is a 2016 reboot of the classic first-person shooter franchise, developed by id Software and published by Bethesda Softworks. Players control the Doom Slayer as he battles demons on Mars. Praised for its fast-paced combat, heavy metal soundtrack, and return to arena-style shooting, it revitalized the series.",
+        "trailer": "https://www.youtube.com/embed/hgA7hNSpqH4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/379720/DOOM/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA02105_00-DOOMBAD000000000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/doom/bxqtc1g1i3l0"
+          }
+        ]
+      },
+      {
+        "name": "Bloodborne",
+        "rating": 9.4,
+        "desc": "Bloodborne is a 2015 action role-playing game developed by FromSoftware and published by Sony Computer Entertainment. Set in the gothic city of Yharnam, players control a Hunter seeking the source of a mysterious blood-borne disease. The game is known for its challenging combat, intricate level design, and dark, atmospheric world.",
+        "trailer": "https://www.youtube.com/embed/2o36-mzaW0c",
+        "buy": [
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP9000-CUSA00150_00-BLOODBORNEMASTER"
+          }
+        ]
+      },
+      {
+        "name": "The Evil Within 2",
+        "rating": 8.1,
+        "desc": "The Evil Within 2 is a 2017 survival horror game developed by Tango Gameworks and published by Bethesda Softworks. A sequel to The Evil Within (2014), players control Detective Sebastian Castellanos, who enters the nightmarish world of STEM to rescue his daughter. The game features open-world elements, psychological horror, and resource management.",
+        "trailer": "https://www.youtube.com/embed/y02qNpQqZVc",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/601130/The_Evil_Within_2/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA01422_00-THEEVILWITHIN200"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/the-evil-within-2/bxqtc1g47tfx"
+          }
+        ]
+      },
+      {
+        "name": "Resident Evil 7",
+        "rating": 8.3,
+        "desc": "Resident Evil 7: Biohazard is a 2017 survival horror game developed and published by Capcom. Returning to a first-person perspective, players control Ethan Winters as he searches for his missing wife at the Baker family plantation in rural Louisiana. The game emphasizes exploration, puzzle-solving, and immersive horror, and introduced VR compatibility.",
+        "trailer": "https://www.youtube.com/embed/kc4g0X5WtsY",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/418230/Resident_Evil_7_Biohazard/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA08485_00-RE7BIOHAZARD0000"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/resident-evil-7-biohazard/bxqtc1rmyprl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Others",
+    "games": [
+      {
+        "name": "FIFA 23",
+        "rating": 7.5,
+        "desc": "FIFA 23 is a 2022 association football simulation video game developed by EA Vancouver and published by Electronic Arts. It is the final installment under the FIFA licence, featuring updated squads, HyperMotion2 technology for realistic animations, Cross-Play, and expanded Career Mode features.",
+        "trailer": "https://www.youtube.com/embed/kravtl4DJAo",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://www.ea.com/games/fifa/fifa-23"
+          },
+          {
+            "for": "PlayStation 5",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA21801_00-FIFA23PS5GAME000"
+          },
+          {
+            "for": "Xbox Series X/S",
+            "link": "https://www.microsoft.com/en-US/p/fifa-23/bxqtc1hhtlkt"
+          }
+        ]
+      },
+      {
+        "name": "Raji: An Ancient Epic",
+        "rating": 8.2,
+        "desc": "Raji: An Ancient Epic is a 2020 action-adventure game developed by Nodding Heads Games and published by Super.com. Inspired by Indian mythology, players control Raji, a young girl chosen by the gods to stand against demonic forces. The game is praised for its art style, soundtrack, and cultural authenticity.",
+        "trailer": "https://www.youtube.com/embed/-KJBu_DZqJ4",
+        "buy": [
+          {
+            "for": "PC",
+            "link": "https://store.steampowered.com/app/1108010/Raji_An_Ancient_Epic/"
+          },
+          {
+            "for": "PlayStation 4",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA13936_00-RAJIANCIENTEPIC0"
+          },
+          {
+            "for": "Xbox One",
+            "link": "https://www.microsoft.com/en-US/p/raji-an-ancient-epic/bxqtc19g2xkl"
+          }
+        ]
+      }
+    ]
+  }
+]

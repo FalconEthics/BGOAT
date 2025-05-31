@@ -1,9 +1,14 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const path = require('path');
+const ensureAuthenticated = require('../middleware/auth');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', function (req, res, next) {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+});
+
+router.get('/games', ensureAuthenticated, function (req, res) {
+  res.sendFile(path.join(__dirname, '../public/games.html'));
 });
 
 module.exports = router;
