@@ -67,3 +67,4 @@ coverage/
 # Production build files
 dist/
 build/
+.vercel
