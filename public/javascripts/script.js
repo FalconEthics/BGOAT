@@ -1,5 +1,16 @@
+/**
+ * Authentication and User Management
+ * Handles login, registration, and related UI interactions
+ *
+ * This script manages the authentication flow for users, including:
+ * - Login form submission and validation
+ * - User registration and account creation
+ * - Form state management and error handling
+ * - Modal interactions for forgot password
+ */
+
 document.addEventListener('DOMContentLoaded', function () {
-  // Forgot password modal
+  // Initialize forgot password modal trigger
   var forgotLink = document.querySelector('.link[href="#0"]');
   if (forgotLink) {
     forgotLink.addEventListener('click', function (e) {
@@ -8,7 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Login
+  /**
+   * Handle login form submission
+   * Validates credentials and submits to authentication endpoint
+   */
   document.getElementById('login-btn').onclick = async function (e) {
     e.preventDefault();
     const email = document.getElementById('login-email').value;
@@ -36,7 +50,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
-  // Signup
+  /**
+   * Handle registration form submission
+   * Creates new user account with provided details
+   */
   document.getElementById('signup-btn').onclick = async function (e) {
     e.preventDefault();
     const name = document.getElementById('signup-name').value;

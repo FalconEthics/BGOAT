@@ -1,10 +1,14 @@
+/**
+ * Authentication routes handling user registration, login, and logout.
+ */
+
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const {seedUserGameData} = require('../utils/seeder');
 
-// User schema
+// Schema definition for user data
 const userSchema = new mongoose.Schema({
   name: {type: String, required: true},
   email: {type: String, required: true, unique: true},
@@ -12,7 +16,10 @@ const userSchema = new mongoose.Schema({
 });
 const User = mongoose.model('User', userSchema);
 
-// Register
+/**
+ * User registration endpoint
+ * Creates a new user account and initializes their game collection
+ */
 router.post('/register', async (req, res) => {
   const {name, email, password} = req.body;
   if (!name || !email || !password)
@@ -27,7 +34,7 @@ router.post('/register', async (req, res) => {
     const user = new User({name, email, password: hash});
     await user.save();
 
-    // Seed game data for the new user
+    // Initialize new user's game collection
     await seedUserGameData(user._id);
 
     res.status(201).json({message: 'User registered'});
@@ -37,7 +44,10 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// Login
+/**
+ * User login endpoint
+ * Authenticates user credentials and creates a session
+ */
 router.post('/login', async (req, res) => {
   const {email, password} = req.body;
   if (!email || !password)
@@ -60,7 +70,10 @@ router.post('/login', async (req, res) => {
   res.json({message: 'Login successful', user: {name: user.name, email: user.email}});
 });
 
-// Logout
+/**
+ * User logout endpoint
+ * Destroys the current session
+ */
 router.post('/logout', (req, res) => {
   req.session.destroy(() => {
     res.clearCookie('connect.sid');

@@ -1,5 +1,16 @@
+/**
+ * Main Application Styles
+ *
+ * Core styling for the BGOAT application, including:
+ * - Base layout and typography
+ * - Authentication forms and cards
+ * - Interactive elements and animations
+ * - Responsive design adjustments
+ */
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
+/* Base styles and typography */
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -14,6 +25,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Interactive elements */
 a {
     cursor: pointer;
     transition: all 200ms linear;
@@ -31,6 +43,7 @@ a:hover {
     color: #ffeba7;
 }
 
+/* Typography and text styles */
 p {
     font-weight: 500;
     font-size: 14px;
@@ -53,7 +66,6 @@ h6 span {
     flex-direction: column;
     justify-content: center;
     padding: 2%;
-
 }
 
 .container {
@@ -62,6 +74,7 @@ h6 span {
     align-items: center;
 }
 
+/* Form elements and controls */
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
     position: absolute;
@@ -106,7 +119,7 @@ h6 span {
     transform: translateX(44px) rotate(-270deg);
 }
 
-
+/* Card and container layouts */
 .card-3d-wrap {
     position: relative;
     width: 440px;
@@ -168,7 +181,7 @@ h6 span {
     display: block;
 }
 
-
+/* Form styling and inputs */
 .form-group {
     position: relative;
     display: block;
@@ -267,6 +280,7 @@ h6 span {
     transition: all 200ms linear;
 }
 
+/* Button styles */
 .btn {
     border-radius: 4px;
     height: 44px;
@@ -309,7 +323,7 @@ h6 span {
     box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2);
 }
 
-
+/* Header and branding */
 .logo {
     position: absolute;
     top: 30px;

@@ -1,10 +1,18 @@
+/**
+ * Game management routes handling CRUD operations for games and categories.
+ * Includes functionality for managing user game collections.
+ */
+
 const express = require('express');
 const router = express.Router();
 const {UserGameList} = require('../models/game');
 const ensureAuthenticated = require('../middleware/auth');
 const {seedUserGameData} = require('../utils/seeder');
 
-// Get all games for the current user
+/**
+ * Retrieve all games for the current user
+ * Creates and seeds initial game data if none exists
+ */
 router.get('/games', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {
@@ -38,7 +46,10 @@ router.get('/games', ensureAuthenticated, async (req, res) => {
   }
 });
 
-// Get games by category for the current user
+/**
+ * Fetch games for a specific category
+ * Returns 404 if category not found
+ */
 router.get('/games/:category', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {
@@ -67,7 +78,10 @@ router.get('/games/:category', ensureAuthenticated, async (req, res) => {
   }
 });
 
-// Reset games data for the current user
+/**
+ * Reset user's game collection to default state
+ * Deletes current collection and reseeds with initial data
+ */
 router.post('/reset-games', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {
@@ -89,7 +103,10 @@ router.post('/reset-games', ensureAuthenticated, async (req, res) => {
   }
 });
 
-// Toggle game played status
+/**
+ * Toggle the played status of a specific game
+ * Updates the played flag in the database
+ */
 router.patch('/games/:categoryId/:gameId/toggle-played', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {
@@ -150,7 +167,10 @@ router.patch('/games/:categoryId/:gameId/toggle-played', ensureAuthenticated, as
   }
 });
 
-// Delete a game
+/**
+ * Delete a specific game from a category
+ * Removes the game from the user's collection
+ */
 router.delete('/games/:categoryId/:gameId', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {
@@ -212,7 +232,10 @@ router.delete('/games/:categoryId/:gameId', ensureAuthenticated, async (req, res
   }
 });
 
-// Add a new category
+/**
+ * Create a new category
+ * Adds empty category to user's collection with specified position
+ */
 router.post('/games/categories/add', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {
@@ -272,7 +295,10 @@ router.post('/games/categories/add', ensureAuthenticated, async (req, res) => {
   }
 });
 
-// Add a new game to a category for the current user
+/**
+ * Add a new game to a specific category
+ * Includes position handling for game placement
+ */
 router.post('/games/:categoryId/add', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {
@@ -326,7 +352,10 @@ router.post('/games/:categoryId/add', ensureAuthenticated, async (req, res) => {
   }
 });
 
-// Delete a category
+/**
+ * Delete an entire category and its games
+ * Removes the category from user's collection
+ */
 router.delete('/games/categories/:categoryId/delete', ensureAuthenticated, async (req, res) => {
   try {
     if (!req.session.user || !req.session.user.id) {

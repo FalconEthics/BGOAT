@@ -5,6 +5,11 @@ const mongoose = require('mongoose');
 const {ObjectId} = mongoose.Types;
 
 /**
+ * Database seeding utility
+ * Provides functionality to initialize new user game collections with default data
+ */
+
+/**
  * Seeds game data for a new user
  * @param {string} userId - MongoDB user ID
  * @returns {Promise<void>}

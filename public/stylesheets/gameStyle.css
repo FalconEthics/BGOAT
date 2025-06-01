@@ -1,3 +1,9 @@
+/**
+ * Main game interface styles
+ * Contains styles for game categories, tiles, and interactive elements
+ */
+
+/* Category section styles */
 .category-content {
     margin-bottom: 2rem;
     overflow: hidden;
@@ -46,6 +52,7 @@
     transform: rotate(-90deg);
 }
 
+/* Game tile layout and components */
 .game-tile {
     background: #23232e;
     border-radius: 10px;
@@ -112,6 +119,7 @@
     color: #fff;
 }
 
+/* Responsive design breakpoints */
 @media (max-width: 768px) {
     .game-tile {
         padding: 1rem;
@@ -153,18 +161,14 @@
 }
 
 .copyright {
-    position: fixed;
-    left: 50%;
-    bottom: 12px;
-    transform: translateX(-50%);
     color: #ffeba7;
     font-size: 1rem;
     opacity: 0.8;
     z-index: 999;
     background: transparent;
-    pointer-events: none;
 }
 
+/* Navigation and header components */
 .navbar-bgoat {
     position: fixed;
     top: 0;
@@ -515,6 +519,7 @@
     }
 }
 
+/* Video placeholder and trailer styles */
 .video-placeholder {
     position: relative;
     width: 100%;
@@ -561,6 +566,7 @@
     background: rgba(255, 0, 0, 0.7);
 }
 
+/* Interactive button styles */
 .played-btn {
     background-color: #655ddc;
     color: white;
@@ -682,6 +688,7 @@
     color: #ffeba7;
 }
 
+/* Form and modal styles */
 #addGameForm .form-style {
     width: 100%;
     padding: 10px 20px;

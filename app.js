@@ -1,5 +1,15 @@
+/*
+  * BGOAT - Backend Game of All Time
+  * A simple game collection manager
+  * Created by: SOUMIK DAS : https://mrsoumikdas.com/
+  * License: MIT License
+  * This project is open source and free to use.
+*/
+
+// Load environment variables from .env file
 require('dotenv').config();
 
+// entry point for the BGOAT application, setting up the Express app, connecting to MongoDB, and defining routes
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -21,6 +31,7 @@ mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useUnifiedTopo
     console.error('MongoDB connection error:', err);
   });
 
+// Middleware setup
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
@@ -33,6 +44,7 @@ app.use(session({
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// View engine setup
 app.use('/', indexRouter);
 app.use('/api', authRouter);
 app.use('/api', gamesRouter);
