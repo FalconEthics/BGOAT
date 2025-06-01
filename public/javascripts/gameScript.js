@@ -36,6 +36,81 @@ $(document).ready(function () {
       loadVideosInCategory(categoryContent);
     }
   });
+
+  // Handle played button clicks
+  $(document).on('click', '.played-btn', async function () {
+    const button = $(this);
+    const categoryId = button.data('category-id');
+    const gameId = button.data('game-id');
+
+    console.log('Toggle played clicked with:', {categoryId, gameId});
+
+    if (!categoryId || !gameId) {
+      showErrorMessage('Could not identify game. Please refresh the page and try again.');
+      return;
+    }
+
+    try {
+      button.prop('disabled', true); // Disable button during request
+
+      const apiUrl = `/api/games/${categoryId}/${gameId}/toggle-played`;
+      console.log('Calling API endpoint:', apiUrl);
+
+      const response = await fetch(apiUrl, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('API error response:', response.status, errorText);
+        throw new Error(`Failed to update game status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log('API success response:', data);
+
+      // Update UI based on new played status
+      if (data.played) {
+        button.text('Played ✓');
+        button.addClass('played');
+        button.closest('.game-tile').addClass('game-played');
+      } else {
+        button.text('Mark as Played');
+        button.removeClass('played');
+        button.closest('.game-tile').removeClass('game-played');
+      }
+
+      // Show success message
+      showSuccessMessage(data.message);
+
+    } catch (error) {
+      console.error('Error toggling played status:', error);
+      showErrorMessage('Failed to update game status. Please try again.');
+    } finally {
+      button.prop('disabled', false); // Re-enable button
+    }
+  });
+
+  // Handle delete button clicks
+  $(document).on('click', '.delete-btn', function () {
+    const button = $(this);
+    const categoryId = button.data('category-id');
+    const gameId = button.data('game-id');
+    const gameName = button.closest('.game-tile').find('.game-title').text();
+
+    if (!categoryId || !gameId) {
+      showErrorMessage('Could not identify game. Please refresh the page and try again.');
+      return;
+    }
+
+    // Show confirmation dialog
+    if (confirm(`Are you sure you want to delete "${gameName}" from your collection? This action cannot be undone.`)) {
+      deleteGame(categoryId, gameId, button);
+    }
+  });
 });
 
 // Load videos for all placeholders in a category
@@ -52,6 +127,60 @@ function loadVideosInCategory(categoryContent) {
 
     placeholder.replaceWith(iframe);
   });
+}
+
+// Show error message
+function showErrorMessage(message) {
+  const errorMessage = $('<div>')
+    .addClass('alert alert-danger')
+    .attr('role', 'alert')
+    .css({
+      'position': 'fixed',
+      'top': '100px',
+      'left': '50%',
+      'transform': 'translateX(-50%)',
+      'z-index': '9999',
+      'padding': '15px 30px',
+      'border-radius': '5px',
+      'box-shadow': '0 4px 12px rgba(0,0,0,0.15)'
+    })
+    .text(message);
+
+  $('body').append(errorMessage);
+
+  // Remove after 3 seconds
+  setTimeout(() => {
+    errorMessage.fadeOut(500, function () {
+      $(this).remove();
+    });
+  }, 3000);
+}
+
+// Show success message
+function showSuccessMessage(message) {
+  const successMessage = $('<div>')
+    .addClass('alert alert-success')
+    .attr('role', 'alert')
+    .css({
+      'position': 'fixed',
+      'top': '100px',
+      'left': '50%',
+      'transform': 'translateX(-50%)',
+      'z-index': '9999',
+      'padding': '15px 30px',
+      'border-radius': '5px',
+      'box-shadow': '0 4px 12px rgba(0,0,0,0.15)'
+    })
+    .text(message);
+
+  $('body').append(successMessage);
+
+  // Remove after 3 seconds
+  setTimeout(() => {
+    successMessage.fadeOut(500, function () {
+      $(this).remove();
+    });
+  }, 3000);
 }
 
 // Reset game collection
@@ -153,6 +282,8 @@ function createCategoryColumn(category) {
 
   // Add all games in this category
   category.games.forEach(game => {
+    // Add category ID to each game object
+    game.parentCategoryId = category._id;
     const gameTile = createGameTile(game);
     categoryContent.append(gameTile);
   });
@@ -214,9 +345,13 @@ function createGameTile(game) {
     `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` :
     '/images/video-placeholder.jpg';
 
+  // Create played button
+  const playedButtonText = game.played ? 'Played ✓' : 'Mark as Played';
+  const playedButtonClass = game.played ? 'played-btn played' : 'played-btn';
+
   // Create game tile HTML with video placeholder instead of iframe
   const gameTileHtml = `
-    <div class="game-tile">
+    <div class="game-tile ${game.played ? 'game-played' : ''}">
       <div class="game-tile-content">
         <div class="game-info">
           <div class="game-title">${game.name}</div>
@@ -227,6 +362,8 @@ function createGameTile(game) {
           </div>
           <div class="game-actions">
             ${buyButtonsHtml}
+            <button class="${playedButtonClass}" data-category-id="${game.parentCategoryId || ''}" data-game-id="${game._id}">${playedButtonText}</button>
+            <button class="delete-btn" data-category-id="${game.parentCategoryId || ''}" data-game-id="${game._id}">Delete</button>
           </div>
         </div>
         <div class="game-trailer">
@@ -240,4 +377,44 @@ function createGameTile(game) {
   `;
 
   return $(gameTileHtml);
+}
+
+// Delete game function
+async function deleteGame(categoryId, gameId, buttonElement) {
+  try {
+    buttonElement.prop('disabled', true); // Disable button during request
+
+    console.log('Delete request with IDs:', categoryId, gameId);
+    const apiUrl = `/api/games/${categoryId}/${gameId}`;
+    console.log('Calling delete API endpoint:', apiUrl);
+
+    const response = await fetch(apiUrl, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('API error response:', response.status, errorText);
+      throw new Error(`Failed to delete game: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log('API success response:', data);
+
+    // Remove game tile from UI
+    buttonElement.closest('.game-tile').fadeOut(300, function () {
+      $(this).remove();
+    });
+
+    // Show success message
+    showSuccessMessage(data.message);
+
+  } catch (error) {
+    console.error('Error deleting game:', error);
+    showErrorMessage('Failed to delete game. Please try again.');
+    buttonElement.prop('disabled', false); // Re-enable button in case of error
+  }
 }

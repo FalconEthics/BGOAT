@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const {UserGameList} = require('../models/game');
+const mongoose = require('mongoose');
+const {ObjectId} = mongoose.Types;
 
 /**
  * Seeds game data for a new user
@@ -20,12 +22,16 @@ async function seedUserGameData(userId) {
     const seedPath = path.join(__dirname, '../seed/seed.json');
     const seedData = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
 
-    // Create user game list with the seed data
+    // Create user game list with the seed data, assigning ObjectIds
     const userGameList = new UserGameList({
       userId,
       categories: seedData.map(category => ({
         name: category.category,
-        games: category.games
+        _id: new ObjectId(),
+        games: category.games.map(game => ({
+          ...game,
+          _id: new ObjectId()
+        }))
       }))
     });
 

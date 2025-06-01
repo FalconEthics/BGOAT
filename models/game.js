@@ -12,14 +12,15 @@ const gameSchema = new mongoose.Schema({
   rating: {type: Number, required: true},
   desc: {type: String, required: true},
   trailer: {type: String, required: true},
-  buy: [purchaseOptionSchema]
-});
+  buy: [purchaseOptionSchema],
+  played: {type: Boolean, default: false}
+}, {_id: true}); // Ensure _id is always present
 
 // Category schema - for reference only
 const categorySchema = new mongoose.Schema({
   name: {type: String, required: true},
   games: [gameSchema]
-});
+}, {_id: true}); // Ensure _id is always present
 
 // User game list schema - this connects users to their games
 const userGameListSchema = new mongoose.Schema({
@@ -30,7 +31,8 @@ const userGameListSchema = new mongoose.Schema({
   },
   categories: [{
     name: {type: String, required: true},
-    games: [gameSchema]
+    games: [gameSchema],
+    _id: {type: mongoose.Schema.Types.ObjectId, auto: true} // Ensure _id for categories
   }]
 });
 
