@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/gameStyle.css">
 </head>
@@ -114,6 +115,19 @@
                         <label for="gameTrailer">Trailer URL (YouTube)</label>
                         <input type="url" class="form-style" id="gameTrailer" name="trailer" required>
                     </div>
+                    <div class="form-group">
+                        <label for="gamePosition">Position in Category</label>
+                        <select class="form-style" id="gamePosition" name="position">
+                            <option value="start">At the beginning</option>
+                            <option value="end" selected>At the end</option>
+                            <option value="custom">At specific position</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="customPositionContainer" style="display: none;">
+                        <label for="customPosition">Specific Position (1-based index)</label>
+                        <input type="number" class="form-style" id="customPosition" name="customPosition" min="1"
+                               value="1">
+                    </div>
                     <div class="form-group" id="buyOptionsContainer">
                         <label>Buy Options</label>
                         <div class="buy-option">
@@ -162,6 +176,19 @@
                         <label for="categoryName">Category Name</label>
                         <input type="text" class="form-style" id="categoryName" name="name" required>
                     </div>
+                    <div class="form-group">
+                        <label for="categoryPosition">Position in List</label>
+                        <select class="form-style" id="categoryPosition" name="position">
+                            <option value="start">At the beginning</option>
+                            <option value="end" selected>At the end</option>
+                            <option value="custom">At specific position</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="customCategoryPositionContainer" style="display: none;">
+                        <label for="customCategoryPosition">Specific Position (1-based index)</label>
+                        <input type="number" class="form-style" id="customCategoryPosition"
+                               name="customCategoryPosition" min="1" value="1">
+                    </div>
                 </form>
             </div>
             <div class="modal-footer">
@@ -175,7 +202,6 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/javascripts/categoryFeatures.js"></script>
 <script src="/javascripts/gameScript.js"></script>
 </body>
 </html>

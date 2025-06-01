@@ -220,7 +220,7 @@ router.post('/games/categories/add', ensureAuthenticated, async (req, res) => {
     }
 
     const userId = req.session.user.id;
-    const {name} = req.body;
+    const {name, position} = req.body; // Added position
 
     if (!name) {
       return res.status(400).json({message: 'Category name is required'});
@@ -245,14 +245,27 @@ router.post('/games/categories/add', ensureAuthenticated, async (req, res) => {
     const mongoose = require('mongoose');
     const ObjectId = mongoose.Types.ObjectId;
 
-    userGameList.categories.push({
+    const newCategory = {
       name,
       games: [],
       _id: new ObjectId() // Explicitly create a new ObjectId
-    });
+    };
+
+    if (position === 'start') {
+      userGameList.categories.unshift(newCategory);
+    } else if (position === 'end') {
+      userGameList.categories.push(newCategory);
+    } else if (typeof position === 'number' && position >= 0) {
+      // Ensure position is within bounds (0 to length)
+      const index = Math.max(0, Math.min(position - 1, userGameList.categories.length));
+      userGameList.categories.splice(index, 0, newCategory);
+    } else {
+      // Default to end if position is invalid or not provided
+      userGameList.categories.push(newCategory);
+    }
 
     await userGameList.save();
-    res.status(201).json({message: 'Category created successfully'});
+    res.status(201).json({message: 'Category created successfully', category: newCategory});
   } catch (error) {
     console.error('Error creating category:', error);
     res.status(500).json({message: 'Server error'});
@@ -267,7 +280,7 @@ router.post('/games/:categoryId/add', ensureAuthenticated, async (req, res) => {
     }
     const userId = req.session.user.id;
     const categoryId = req.params.categoryId;
-    const {name, rating, desc, trailer, buy} = req.body;
+    const {name, rating, desc, trailer, buy, position} = req.body; // Added position
 
     if (!name || !rating || !desc || !trailer || !Array.isArray(buy) || buy.length === 0) {
       return res.status(400).json({message: 'All fields are required'});
@@ -281,19 +294,72 @@ router.post('/games/:categoryId/add', ensureAuthenticated, async (req, res) => {
     if (!category) {
       return res.status(404).json({message: 'Category not found'});
     }
-    // Add the new game
-    category.games.push({
+
+    const newGame = {
       name,
       rating,
       desc,
       trailer,
       buy,
       played: false
-    });
+    };
+
+    if (position === 'start') {
+      category.games.unshift(newGame);
+    } else if (position === 'end') {
+      category.games.push(newGame);
+    } else if (typeof position === 'number' && position >= 0) {
+      // Ensure position is within bounds (0 to length)
+      // Client sends 1-based index, convert to 0-based for splice
+      const index = Math.max(0, Math.min(position - 1, category.games.length));
+      category.games.splice(index, 0, newGame);
+    } else {
+      // Default to end if position is invalid or not provided
+      category.games.push(newGame);
+    }
+
     await userGameList.save();
-    res.status(201).json({message: 'Game added successfully'});
+    res.status(201).json({message: 'Game added successfully', game: category.games[category.games.length - 1]});
   } catch (error) {
     console.error('Error adding game:', error);
+    res.status(500).json({message: 'Server error'});
+  }
+});
+
+// Delete a category
+router.delete('/games/categories/:categoryId/delete', ensureAuthenticated, async (req, res) => {
+  try {
+    if (!req.session.user || !req.session.user.id) {
+      return res.status(401).json({message: 'Unauthorized'});
+    }
+
+    const userId = req.session.user.id;
+    const categoryId = req.params.categoryId;
+
+    const userGameList = await UserGameList.findOne({userId});
+    if (!userGameList) {
+      return res.status(404).json({message: 'Game list not found'});
+    }
+
+    // Find the category index
+    const categoryIndex = userGameList.categories.findIndex(c => c._id.toString() === categoryId);
+    if (categoryIndex === -1) {
+      return res.status(404).json({message: 'Category not found'});
+    }
+
+    // Get category name for the response message
+    const categoryName = userGameList.categories[categoryIndex].name;
+
+    // Remove the category
+    userGameList.categories.splice(categoryIndex, 1);
+    await userGameList.save();
+
+    res.json({
+      message: `Category "${categoryName}" deleted successfully`,
+      deleted: true
+    });
+  } catch (error) {
+    console.error('Error deleting category:', error);
     res.status(500).json({message: 'Server error'});
   }
 });

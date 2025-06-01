@@ -39,6 +39,7 @@
     content: '\25BC'; /* Down arrow */
     font-size: 0.8rem;
     transition: transform 0.3s ease;
+    margin-left: 15px;
 }
 
 .category-header.collapsed::after {
@@ -120,6 +121,19 @@
     .category-header {
         font-size: 1.1rem;
         padding: 0.8rem 1rem;
+    }
+
+    .delete-category-btn {
+        padding: 6px;
+        margin-left: 10px;
+    }
+
+    .delete-category-btn i {
+        font-size: 1rem;
+    }
+
+    .category-header::after {
+        margin-left: 10px;
     }
 }
 
@@ -490,6 +504,15 @@
         width: 100%;
         margin-right: 0;
     }
+
+    .delete-category-btn {
+        padding: 4px;
+        margin-left: 8px;
+    }
+
+    .category-header {
+        padding: 0.8rem 1rem;
+    }
 }
 
 .video-placeholder {
@@ -708,4 +731,31 @@
 
 #saveGameBtn:hover {
     background-color: #544bc9;
+}
+
+.delete-category-btn {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+    margin-left: 15px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-category-btn i {
+    color: #ffeba7;
+    font-size: 1.1rem;
+}
+
+.delete-category-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.category-title {
+    flex: 1;
 }
