@@ -111,6 +111,109 @@ $(document).ready(function () {
       deleteGame(categoryId, gameId, button);
     }
   });
+
+  // Handle add game button clicks
+  $(document).on('click', '.add-game-tile', function () {
+    const categoryId = $(this).data('category-id');
+    $('#addGameCategoryId').val(categoryId);
+    $('#addGameForm')[0].reset();
+
+    // Reset buy options to just one
+    $('#buyOptionsContainer .buy-option:not(:first)').remove();
+    $('#buyOptionsContainer .buy-option:first .remove-buy-option').hide();
+
+    // Show the modal
+    $('#addGameModal').modal('show');
+  });
+
+  // Add new buy option field
+  $('#addBuyOption').on('click', function () {
+    const newBuyOption = `
+      <div class="buy-option">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-style" name="buyFor[]" placeholder="Platform (e.g., PC)" required>
+          </div>
+          <div class="col">
+            <input type="url" class="form-style" name="buyLink[]" placeholder="Purchase URL" required>
+          </div>
+          <div class="col-auto">
+            <button type="button" class="btn remove-buy-option">Remove</button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    $('#buyOptionsContainer').append(newBuyOption);
+
+    // Show remove button for the first option if we have more than one
+    if ($('#buyOptionsContainer .buy-option').length > 1) {
+      $('#buyOptionsContainer .buy-option:first .remove-buy-option').show();
+    }
+  });
+
+  // Remove buy option
+  $(document).on('click', '.remove-buy-option', function () {
+    $(this).closest('.buy-option').remove();
+
+    // Hide the remove button if only one option remains
+    if ($('#buyOptionsContainer .buy-option').length === 1) {
+      $('#buyOptionsContainer .buy-option:first .remove-buy-option').hide();
+    }
+  });
+
+  // Save new game
+  $('#saveGameBtn').on('click', async function () {
+    // Basic form validation
+    const form = $('#addGameForm')[0];
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const categoryId = $('#addGameCategoryId').val();
+    const name = $('#gameName').val();
+    const rating = parseFloat($('#gameRating').val());
+    const desc = $('#gameDesc').val();
+    const trailer = $('#gameTrailer').val();
+
+    // Collect buy options
+    const buy = [];
+    const buyForInputs = $('input[name="buyFor[]"]');
+    const buyLinkInputs = $('input[name="buyLink[]"]');
+
+    for (let i = 0; i < buyForInputs.length; i++) {
+      buy.push({
+        for: buyForInputs[i].value,
+        link: buyLinkInputs[i].value
+      });
+    }
+
+    try {
+      const response = await fetch(`/api/games/${categoryId}/add`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({name, rating, desc, trailer, buy})
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to add game');
+      }
+
+      // Show success message and reload games
+      showSuccessMessage('Game added successfully!');
+      $('#addGameModal').modal('hide');
+
+      // Reload the category content
+      fetchGameData();
+    } catch (error) {
+      console.error('Error adding game:', error);
+      showErrorMessage(error.message || 'Failed to add game. Please try again.');
+    }
+  });
 });
 
 // Load videos for all placeholders in a category
@@ -288,9 +391,23 @@ function createCategoryColumn(category) {
     categoryContent.append(gameTile);
   });
 
+  // Add 'Add Game' tile at the end of each category
+  const addGameTile = createAddGameTile(category._id);
+  categoryContent.append(addGameTile);
+
   categoryColumn.append(categoryContent);
 
   return categoryColumn;
+}
+
+// Create the 'Add Game' tile
+function createAddGameTile(categoryId) {
+  return $(`
+    <div class="add-game-tile" data-category-id="${categoryId}">
+      <div class="add-game-icon">+</div>
+      <div class="add-game-text">ADD MORE GAME</div>
+    </div>
+  `);
 }
 
 // Extract YouTube video ID from URL

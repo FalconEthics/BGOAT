@@ -626,3 +626,86 @@
         margin-right: 0;
     }
 }
+
+/* Add Game styles */
+.add-game-tile {
+    background: #282832;
+    border: 2px dashed #4b4b65;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.add-game-tile:hover {
+    background: #303040;
+    border-color: #ffeba7;
+    transform: translateY(-2px);
+}
+
+.add-game-icon {
+    font-size: 2rem;
+    color: #ffeba7;
+    margin-right: 10px;
+}
+
+.add-game-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffeba7;
+}
+
+#addGameForm .form-style {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: none;
+    color: #ffeba7;
+    margin-bottom: 10px;
+}
+
+#addGameForm label {
+    color: #c4c3ca;
+    margin-bottom: 5px;
+}
+
+.buy-option {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.remove-buy-option {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.remove-buy-option:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+#addBuyOption {
+    background-color: #4b4b65;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#addBuyOption:hover {
+    background-color: #5d5d7a;
+}
+
+#saveGameBtn {
+    background-color: #655ddc;
+    color: white;
+}
+
+#saveGameBtn:hover {
+    background-color: #544bc9;
+}
