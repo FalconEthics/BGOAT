@@ -367,6 +367,12 @@ function renderCategories(categories) {
     const categoryColumn = createCategoryColumn(category);
     categoriesContainer.append(categoryColumn);
   });
+
+  // Add "Create Category" button at the bottom
+  if (typeof createCreateCategoryButton === 'function') {
+    const createCategoryBtn = createCreateCategoryButton();
+    categoriesContainer.append(createCategoryBtn);
+  }
 }
 
 // Create a category column with games

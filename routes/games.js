@@ -212,6 +212,53 @@ router.delete('/games/:categoryId/:gameId', ensureAuthenticated, async (req, res
   }
 });
 
+// Add a new category
+router.post('/games/categories/add', ensureAuthenticated, async (req, res) => {
+  try {
+    if (!req.session.user || !req.session.user.id) {
+      return res.status(401).json({message: 'Unauthorized'});
+    }
+
+    const userId = req.session.user.id;
+    const {name} = req.body;
+
+    if (!name) {
+      return res.status(400).json({message: 'Category name is required'});
+    }
+
+    const userGameList = await UserGameList.findOne({userId});
+
+    if (!userGameList) {
+      return res.status(404).json({message: 'No game list found for this user'});
+    }
+
+    // Check if category with same name already exists
+    const categoryExists = userGameList.categories.some(cat =>
+      cat.name.toLowerCase() === name.toLowerCase()
+    );
+
+    if (categoryExists) {
+      return res.status(400).json({message: 'A category with this name already exists'});
+    }
+
+    // Add the new category with explicit ObjectId
+    const mongoose = require('mongoose');
+    const ObjectId = mongoose.Types.ObjectId;
+
+    userGameList.categories.push({
+      name,
+      games: [],
+      _id: new ObjectId() // Explicitly create a new ObjectId
+    });
+
+    await userGameList.save();
+    res.status(201).json({message: 'Category created successfully'});
+  } catch (error) {
+    console.error('Error creating category:', error);
+    res.status(500).json({message: 'Server error'});
+  }
+});
+
 // Add a new game to a category for the current user
 router.post('/games/:categoryId/add', ensureAuthenticated, async (req, res) => {
   try {
