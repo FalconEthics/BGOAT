@@ -23,7 +23,9 @@ const gamesRouter = require('./routes/games');
 
 const app = express();
 
-mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true, useUnifiedTopology: true
+})
   .then(() => {
     console.log('MongoDB connected successfully');
   })
