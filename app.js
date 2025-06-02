@@ -46,7 +46,7 @@ app.use(session({
     collectionName: 'sessions'
   }),
   cookie: {
-    secure: process.env.NODE_ENV === 'production',
+    secure: false, // Set to false to work without HTTPS
     maxAge: 1000 * 60 * 60 * 24 // 1 day
   }
 }));
