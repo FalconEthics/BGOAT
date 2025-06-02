@@ -1,6 +1,10 @@
 // Show intro modal on page load
 $(document).ready(function () {
-  $('#introModal').modal('show');
+  // Fetch user data for personalized welcome
+  fetchUserData().then(() => {
+    // Show intro modal after user data is loaded
+    $('#introModal').modal('show');
+  });
 
   // Fetch game data and render categories
   fetchGameData();
@@ -746,6 +750,28 @@ function createCreateCategoryButton() {
   });
 
   return createCategoryButton;
+}
+
+// Function to fetch current user data and update welcome message
+async function fetchUserData() {
+  try {
+    const response = await fetch('/api/user');
+    if (!response.ok) {
+      console.error('Error fetching user data:', response.status);
+      return;
+    }
+
+    const data = await response.json();
+
+    // Update the welcome message with the user's name
+    if (data.user && data.user.name) {
+      $('#welcomeUsername').text(data.user.name);
+      // Removed the showWelcomeMessage call
+    }
+  } catch (error) {
+    console.error('Error fetching user data:', error);
+    // Silently fail - the default "Gamer" will be used
+  }
 }
 
 // Function to handle creating a new category

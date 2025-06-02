@@ -81,4 +81,20 @@ router.post('/logout', (req, res) => {
   });
 });
 
+/**
+ * Get current user session data
+ * Returns logged-in user information
+ */
+router.get('/user', (req, res) => {
+  if (req.session && req.session.user) {
+    return res.json({
+      user: {
+        name: req.session.user.name,
+        email: req.session.user.email
+      }
+    });
+  }
+  return res.status(401).json({message: 'Not logged in'});
+});
+
 module.exports = router;
