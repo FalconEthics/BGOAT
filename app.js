@@ -16,6 +16,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const mongoose = require('mongoose');
 const session = require('express-session');
+const MongoStore = require('connect-mongo');
 
 const indexRouter = require('./routes/index');
 const authRouter = require('./routes/auth');
@@ -23,9 +24,7 @@ const gamesRouter = require('./routes/games');
 
 const app = express();
 
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true, useUnifiedTopology: true
-})
+mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
     console.log('MongoDB connected successfully');
   })
@@ -42,7 +41,14 @@ app.use(session({
   secret: process.env.SESSION_SECRET || 'bgoat_secret',
   resave: false,
   saveUninitialized: false,
-  cookie: {secure: false} // set to true if using HTTPS
+  store: MongoStore.create({
+    mongoUrl: process.env.MONGODB_URI,
+    collectionName: 'sessions'
+  }),
+  cookie: {
+    secure: process.env.NODE_ENV === 'production',
+    maxAge: 1000 * 60 * 60 * 24 // 1 day
+  }
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 

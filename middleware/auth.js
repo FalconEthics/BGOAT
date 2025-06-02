@@ -11,7 +11,7 @@ function ensureAuthenticated(req, res, next) {
   if (req.session && req.session.user) {
     return next();
   }
-  res.status(401).json({message: 'Unauthorized access'});
+  res.redirect('/'); // Redirect to login page if not authenticated
 }
 
 module.exports = ensureAuthenticated;
